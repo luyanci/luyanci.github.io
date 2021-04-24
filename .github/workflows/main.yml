@@ -1,0 +1,20 @@
+on: push
+name: Github 同步到 Gitee
+jobs:
+  run:
+    name: 把该仓库同步到 Gitee（使用白名单只同步这个仓库）
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout source codes
+      uses: actions/checkout@v1
+    - name: Mirror Github to Gitee with white list
+      uses: Yikun/hub-mirror-action@master
+      with:
+        src: github/luyanci
+        dst: gitee/luyanei
+        dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}
+        dst_token:  ${{ secrets.GITEE_TOKEN }}
+        white_list: "luyanci.github.io"
+        force_update: true
+        debug: true
+
