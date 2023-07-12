@@ -1,0 +1,253 @@
+<!DOCTYPE html><html lang="zh-cn" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>YC的博客网站 - Luyancib</title><meta name="author" content="YC酱luyancib"><meta name="copyright" content="YC酱luyancib"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="这里会存放一些东西">
+<meta property="og:type" content="website">
+<meta property="og:title" content="YC的博客网站">
+<meta property="og:url" content="http://luyanci.github.io/index.html">
+<meta property="og:site_name" content="YC的博客网站">
+<meta property="og:description" content="这里会存放一些东西">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://luyanci.github.io/image/face.jpg">
+<meta property="article:author" content="YC酱luyancib">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://luyanci.github.io/image/face.jpg"><link rel="shortcut icon" href="/image/favicon.ico"><link rel="canonical" href="http://luyanci.github.io/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: 'Copy successfully',
+    error: 'Copy error',
+    noSupport: 'The browser does not support'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: 'days',
+  dateSuffix: {
+    just: 'Just',
+    min: 'minutes ago',
+    hour: 'hours ago',
+    day: 'days ago',
+    month: 'months ago'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: true,
+  islazyload: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'YC的博客网站',
+  isPost: false,
+  isHome: true,
+  isHighlightShrink: false,
+  isToc: false,
+  postUpdate: '2023-07-12 09:26:34'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+    win.getCSS = (url,id = false) => new Promise((resolve, reject) => {
+      const link = document.createElement('link')
+      link.rel = 'stylesheet'
+      link.href = url
+      if (id) link.id = id
+      link.onerror = reject
+      link.onload = link.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        link.onload = link.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(link)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><meta name="generator" content="Hexo 6.3.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/image/face.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/p/"><div class="headline">Articles</div><div class="length-num">9</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">3</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">0</div></a></div><hr class="custom-hr"/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/p/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="full_page" id="page-header" style="background-image: url('/image/img/3.jpg')"><nav id="nav"><span id="blog-info"><a href="/" title="YC的博客网站"><span class="site-name">YC的博客网站</span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/p/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="site-info"><h1 id="site-title">YC的博客网站</h1><div id="site-subtitle"><span id="subtitle"></span></div><div id="site_social_icons"><a class="social-icon" href="https://github.com/luyanci" target="_blank" title="Github"><i class="fab fa-github" style="color: #000000;"></i></a><a class="social-icon" href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&amp;k=ooQLGgF47KvSMkS6nHGLWIGzDFntJ3U3&amp;authKey=kln3N0C6qP4OPlCmDntPFBxF10uICUr7tEH%2BnQ1yySz5oMchzjZhAvkvJ9FVgl8w&amp;noverify=0&amp;group_code=738434011" target="_blank" title="QQ群"><i class="fab fa-brands fa-qq" style="color: #000000;"></i></a><a class="social-icon" href="https://space.bilibili.com/282873551" target="_blank" title="bilibili"><i class="fab fa-brands fa-bilibili" style="color: #000000;"></i></a></div></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="post_cover left"><a href="/p/hello-world/" title="Hello World"><img class="post-bg" src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Hello World"></a></div><div class="recent-post-info"><a class="article-title" href="/p/hello-world/" title="Hello World">Hello World</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2023-07-12T09:26:20.726Z" title="Created 2023-07-12 09:26:20">2023-07-12</time></span></div><div class="content">Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
+Quick StartCreate a new post1$ hexo new &quot;My New Post&quot;
+
+More info: Writing
+Run server1$ hexo server
+
+More info: Server
+Generate static files1$ hexo generate
+
+More info: Generating
+Deploy to remote sites1$ hexo deploy
+
+More info: Deployment
+</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/p/lsposed/" title="LSPosed安装"><img class="post-bg" src="/image/lsposed/top.webp" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="LSPosed安装"></a></div><div class="recent-post-info"><a class="article-title" href="/p/lsposed/" title="LSPosed安装">LSPosed安装</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2023-07-01T16:17:20.000Z" title="Created 2023-07-01 16:17:20">2023-07-01</time></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E8%BD%AF%E4%BB%B6/">软件</a></span></div><div class="content">简单介绍LSPosed是目前主流的XPosed框架，支持安卓8.1-13
+桌面找不到图标？自1.8.6版本LSPosed起，默认入口就更改到了通知栏位置(记得往下拉哦)如果实在找不到的话就拨号盘暗码(##5776733##)来进入管理器进入管理器后就可以点设置手动把桌面图标弄出来啦~
+视频教程 
+
+文字教程（以最新稳定为例）下载打开LSPosed的Github页面，直接找到releases，下载magisk模块包这里下载的是模块包，不是管理器！打不开github的可以试试steam++
+安装由于Riru和Zygisk不能共存，只能二选一，如果是最新版面具可无脑选择Zygisk版本
+Zygisk版本安装（Magisk&gt;v24.1）下载文件名带zygisk的包,打开面具直接刷入模块重启即可注意：面具设置必须打开zygisk,否则重启之后出现zygisk未启用，此模块暂停使用的提示
+Riru版本安装（Magisk&lt;v24.1）推荐先去升级面具，没有办法的再去用riru版首先以同样的方式下载必要模块Riru，然后再下载文件名带Riru的包，然后按顺序刷入（先Riru后LSPosed ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/p/magisk/" title="Magisk安装教程"><img class="post-bg" src="/image/magisk/magisk.webp" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Magisk安装教程"></a></div><div class="recent-post-info"><a class="article-title" href="/p/magisk/" title="Magisk安装教程">Magisk安装教程</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2023-06-29T17:52:01.000Z" title="Created 2023-06-29 17:52:01">2023-06-29</time></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E8%BD%AF%E4%BB%B6/">软件</a></span></div><div class="content">视频教程 
+
+文字教程前提：手机已经解锁BL
+获取系统boot镜像以MIUI系统为例 打开设置-我的设备-全部参数来查询自己的系统版本号查询完后到XiaomiROM找该版本的完整卡刷包并下载双击打开卡刷包，如果有boot.img就直接解压，如果没有但有payload.bin，则需要找工具解包(这里不想多讲)近期出的手机可能会因为修补boot.img导致无法进入系统（甚至报系统损坏），搞机需谨慎哦
+修补并刷入boot安装面具，点击上面的安装，选择提取的boot镜像,然后点开始等待一会，如果显示done,就可以把修补后的文件传回到电脑里打开命令提示符（cmd&#x2F;powershell）输入以下命令
+1234For cmdfastboot flash boot &lt;boot image&gt;For PowerShell./fastboot flash boot &lt;boot image&gt;
+刷入成功后重启，打开面具，magisk栏显示版本号，代表刷入成功
+
+文章相关资源小米解锁​adb工​具面具 xiaomiroms面具中文网
+
+</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/p/trash/" title="【黑历史】废稿"><img class="post-bg" src="/image/trash/top.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="【黑历史】废稿"></a></div><div class="recent-post-info"><a class="article-title" href="/p/trash/" title="【黑历史】废稿">【黑历史】废稿</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2022-10-29T16:27:00.000Z" title="Created 2022-10-29 16:27:00">2022-10-29</time></span></div><div class="content">电竞系列日常文一个随便写的文，迫害好友用的
+1.start“嘶…头好痛，我是谁？我在哪？”YC扶着还有些许疼痛的脑袋，醒了过来。“我这是在哪？”环视了一下周围，似乎是一个在车库的电脑工作间？不远处有一台设置着侦探杰瑞S皮宣传壁纸的电脑，很显然这是YC自己的电脑主机。门口不远处的地板上放着一台主机，箱子上贴着升级二字的标签，标签下面还表明了电脑主人是阿祺。（设定:走流程的小配角）“这…”正当YC还在疑惑时，电脑就接连响起了邮件提示音。YC扶着脑袋，走到了电脑面前，打开了邮件第一封邮件说了一下有关自己的身份信息，和发件人的身份（是个好人）YC大概看了一下，自己是某个游戏战队的技术支持人员（简单说明 后台修电脑的），因为某些不可控原因，砸到了脑袋，出现了记忆断层。然后打开了第二封邮件，然而YC看完后瞬间有种想骂人的冲动，因为第二封的发件者是他的叔叔——蒂姆￼“好你个蒂姆叔叔，又借我钱！”“算了算了，钱都借了，还能赚好吧，习惯了”YC吐槽道。打开第三封邮件，而这封邮件是有关阿祺电脑的任务需求【升级内存到16GB】【已安装且能正常运行:Heart Of Stone】YC凭借着肌肉记忆，将阿祺的主 ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/p/SJDM/" title="随机点名"><img class="post-bg" src="/image/head1.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="随机点名"></a></div><div class="recent-post-info"><a class="article-title" href="/p/SJDM/" title="随机点名">随机点名</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2021-01-03T12:16:27.000Z" title="Created 2021-01-03 12:16:27">2021-01-03</time></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E8%BD%AF%E4%BB%B6/">软件</a></span></div><div class="content">hey! 大家好！这里是YC的BLOG的网站！我是YC！今天要带来一个自制的软件，软件名在标题上能看到。属于学生们的快乐软件下载
+</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/p/sys-20/" title="GHOST XP系统 v2020-8-28 系统介绍"><img class="post-bg" src="/image/sys/20-08-28/1.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="GHOST XP系统 v2020-8-28 系统介绍"></a></div><div class="recent-post-info"><a class="article-title" href="/p/sys-20/" title="GHOST XP系统 v2020-8-28 系统介绍">GHOST XP系统 v2020-8-28 系统介绍</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2020-08-15T12:15:11.000Z" title="Created 2020-08-15 12:15:11">2020-08-15</time></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E7%B3%BB%E7%BB%9F/">系统</a></span></div><div class="content">安装软件1.火绒安全软件2.腾讯QQ3.世界之窗浏览器4.QQ影音5.bandizip6.Men Reduct7.极速迅雷8.openoffice9.360杀毒10.驱动总裁11.微信
+系统简介1.基于windows xp profesional sp3制作2.在2014年4月之前的所有补丁已经加进系统3.原生exfat文件系统支持–4.部署系统时会有些内味–5.flash使用果核剥壳的破解flash6.添加一些免费字体，为商业工作者使用然后也没啥好介绍的……
+系统截图
+下载地址百度网盘 提取码：szsl（素质三连的首拼）
+</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/p/njdkl/" title="无需安装Java的mc启动器！"><img class="post-bg" src="/image/njl/1.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="无需安装Java的mc启动器！"></a></div><div class="recent-post-info"><a class="article-title" href="/p/njdkl/" title="无需安装Java的mc启动器！">无需安装Java的mc启动器！</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2020-01-03T12:16:15.000Z" title="Created 2020-01-03 12:16:15">2020-01-03</time></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E8%BD%AF%E4%BB%B6/">软件</a></span></div><div class="content"> 
+
+ –hey! 大家好！这里是likeXP的BLOG的网站！我是likeXP！今天要带来一个自制的软件，软件名在标题上能看到。介绍就不多说看灵感来源！（灵感来源（B站作者：ZYFDroid）（在文章也有放这个视频））(首次打开后需连网让程序下载文件！) –(源码也放在一块了)–联网下载的文件有：32位JDK(会检测32位JDK的“java.exe”文件)(在IDEA的旧版本的zip包是会自带的【注意是旧版本！】)HMCL(按下开始后会检测！)（这个灵感来源也有，也就是利用运行指令让在程序同一目录下的JDK运行HMCL）64位JDK（需用户主动下载！）添加的一点小功能：1.支持32&#x2F;64位JDK启动2.MP3播放器（需在于启动器同一目录下放入MP3文件，并改名为”music.mp3”，不存在就不播放！）3.添加彩蛋（后面可能会删除）4.支持下载功能！5.请期待后面可能会增加的功能……然后就没啥好写的了…接下来请看软件截图： 下载
+</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/p/resys/" title="重装系统教程"><img class="post-bg" src="/image/head.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="重装系统教程"></a></div><div class="recent-post-info"><a class="article-title" href="/p/resys/" title="重装系统教程">重装系统教程</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2020-01-03T12:15:36.000Z" title="Created 2020-01-03 12:15:36">2020-01-03</time></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E5%85%B6%E4%BB%96/">其他</a></span></div><div class="content">itellyou.cn这一个网站是原版系统下载站，而且系统比较齐全（百度搜索msdm也能搜到这个网站），但要使用迅雷来下载镜像。目前就只有这一个网站能下载原版系统镜像。–（还有微软官网）–重装系统教程：1.PE安装法你需要准备一个u盘&#x2F;移动硬盘，来制作一个PE启动盘，目前搜索上大多数的PE有可能会安装捆绑软件，锁死浏览器主页。推荐的PE有：微PE优启通USMU盘魔术师bios按键请看文章最下面的图片注意：需下载好原版系统镜像！不然会因为没有系统镜像导致无法安装！
+2.原版直接安装法你需要准备一个u盘&#x2F;移动硬盘，来制作一个原版系统安装盘，直接使用软碟通刷入原版系统镜像到u盘&#x2F;移动硬盘。bios按键请看文章最下面的图片
+–过一段时间可能会出个完整教程（虚拟机发现不能用了，等解决后会出一篇文章）–下面是进入bios的按键
+</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/p/sys-19/" title="GHOST XP系统 v2019-7-30 系统介绍"><img class="post-bg" src="/image/sys/2019-7-31/sys19.webp" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="GHOST XP系统 v2019-7-30 系统介绍"></a></div><div class="recent-post-info"><a class="article-title" href="/p/sys-19/" title="GHOST XP系统 v2019-7-30 系统介绍">GHOST XP系统 v2019-7-30 系统介绍</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2019-07-30T12:14:55.000Z" title="Created 2019-07-30 12:14:55">2019-07-30</time></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E7%B3%BB%E7%BB%9F/">系统</a></span></div><div class="content">视频介绍
+ 
+
+
+系统介绍安装软件1.腾讯电脑管家2.QQ音乐3.2345加速浏览器（旧版本）4.QQ影音（旧版本）5.winRAR6.影子系统7.瑞星小狮子8.microsoft office 2003（没有QQ差评！）
+系统简介1.基于windows xp profesional sp3制作–aaaaaaaaa!忘记把virtualbox的驱动删了！–然后也没啥好介绍的……
+系统截图–还没去做233–
+下载地址百度网盘 提取码：szsl（素质三连的首拼）虚拟机测试 百度网盘（提取码如上）
+</div></div></div><nav id="pagination"><div class="pagination"><span class="page-number current">1</span></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/image/face.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">YC酱luyancib</div><div class="author-info__description">这里会存放一些东西</div></div><div class="card-info-data site-data is-center"><a href="/p/"><div class="headline">Articles</div><div class="length-num">9</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">3</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">0</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://space.bilibili.com/282873551"><i class="fa-brands fa-bilibili"></i><span>关注</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/luyanci" target="_blank" title="Github"><i class="fab fa-github" style="color: #000000;"></i></a><a class="social-icon" href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&amp;k=ooQLGgF47KvSMkS6nHGLWIGzDFntJ3U3&amp;authKey=kln3N0C6qP4OPlCmDntPFBxF10uICUr7tEH%2BnQ1yySz5oMchzjZhAvkvJ9FVgl8w&amp;noverify=0&amp;group_code=738434011" target="_blank" title="QQ群"><i class="fab fa-brands fa-qq" style="color: #000000;"></i></a><a class="social-icon" href="https://space.bilibili.com/282873551" target="_blank" title="bilibili"><i class="fab fa-brands fa-bilibili" style="color: #000000;"></i></a></div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>Recent Post</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/p/hello-world/" title="Hello World"><img src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Hello World"/></a><div class="content"><a class="title" href="/p/hello-world/" title="Hello World">Hello World</a><time datetime="2023-07-12T09:26:20.726Z" title="Created 2023-07-12 09:26:20">2023-07-12</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/p/lsposed/" title="LSPosed安装"><img src="/image/lsposed/top.webp" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="LSPosed安装"/></a><div class="content"><a class="title" href="/p/lsposed/" title="LSPosed安装">LSPosed安装</a><time datetime="2023-07-01T16:17:20.000Z" title="Created 2023-07-01 16:17:20">2023-07-01</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/p/magisk/" title="Magisk安装教程"><img src="/image/magisk/magisk.webp" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Magisk安装教程"/></a><div class="content"><a class="title" href="/p/magisk/" title="Magisk安装教程">Magisk安装教程</a><time datetime="2023-06-29T17:52:01.000Z" title="Created 2023-06-29 17:52:01">2023-06-29</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/p/trash/" title="【黑历史】废稿"><img src="/image/trash/top.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="【黑历史】废稿"/></a><div class="content"><a class="title" href="/p/trash/" title="【黑历史】废稿">【黑历史】废稿</a><time datetime="2022-10-29T16:27:00.000Z" title="Created 2022-10-29 16:27:00">2022-10-29</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/p/SJDM/" title="随机点名"><img src="/image/head1.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="随机点名"/></a><div class="content"><a class="title" href="/p/SJDM/" title="随机点名">随机点名</a><time datetime="2021-01-03T12:16:27.000Z" title="Created 2021-01-03 12:16:27">2021-01-03</time></div></div></div></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>Tags</span></div><div class="card-tag-cloud"><a href="/tags/%E8%BD%AF%E4%BB%B6/" style="font-size: 1.5em; color: #99a9bf">软件</a> <a href="/tags/%E7%B3%BB%E7%BB%9F/" style="font-size: 1.3em; color: #99a1ac">系统</a> <a href="/tags/%E5%85%B6%E4%BB%96/" style="font-size: 1.1em; color: #999">其他</a></div></div><div class="card-widget card-archives"><div class="item-headline"><i class="fas fa-archive"></i><span>Archives</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/p/2023/07/"><span class="card-archive-list-date">七月 2023</span><span class="card-archive-list-count">2</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/p/2023/06/"><span class="card-archive-list-date">六月 2023</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/p/2022/10/"><span class="card-archive-list-date">十月 2022</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/p/2021/01/"><span class="card-archive-list-date">一月 2021</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/p/2020/08/"><span class="card-archive-list-date">八月 2020</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/p/2020/01/"><span class="card-archive-list-date">一月 2020</span><span class="card-archive-list-count">2</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/p/2019/07/"><span class="card-archive-list-date">七月 2019</span><span class="card-archive-list-count">1</span></a></li></ul></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>Info</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">Article :</div><div class="item-count">9</div></div><div class="webinfo-item"><div class="item-name">Run time :</div><div class="item-count" id="runtimeshow" data-publishDate="2020-06-29T00:00:00.000Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2023 By YC酱luyancib</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="Toggle Between Light And Dark Mode"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="Toggle between single-column and double-column"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="Setting"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="Back To Top"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.umd.min.js"></script><div class="js-pjax"><script>window.typedJSFn = {
+  init: (str) => {
+    window.typed = new Typed('#subtitle', Object.assign({
+      strings: str,
+      startDelay: 300,
+      typeSpeed: 150,
+      loop: true,
+      backSpeed: 50,
+    }, null))
+  },
+  run: (subtitleType) => {
+    if (true) {
+      if (typeof Typed === 'function') {
+        subtitleType()
+      } else {
+        getScript('https://cdn.jsdelivr.net/npm/typed.js/dist/typed.umd.min.js').then(subtitleType)
+      }
+    } else {
+      subtitleType()
+    }
+  }
+}
+</script><script>function subtitleType () {
+  fetch('https://v1.hitokoto.cn')
+    .then(response => response.json())
+    .then(data => {
+      if (true) {
+        const from = '出自 ' + data.from
+        const sub = []
+        sub.unshift(data.hitokoto, from)
+        typedJSFn.init(sub)
+      } else {
+        document.getElementById('subtitle').textContent = data.hitokoto
+      }
+    })
+}
+typedJSFn.run(subtitleType)
+</script></div><canvas class="fireworks" mobile="false"></canvas><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/fireworks.min.js"></script><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/activate-power-mode.min.js"></script><script>POWERMODE.colorful = true;
+POWERMODE.shake = true;
+POWERMODE.mobile = true;
+document.body.addEventListener('input', POWERMODE);
+</script></div></body></html>
