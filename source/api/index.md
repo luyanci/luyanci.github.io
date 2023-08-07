@@ -1,16 +1,16 @@
 ---
-title: PCinfo
+title: PCinfo(CPU-Z TXT Report)
 cover: /image/img/6.jpg
 ---
-CPU-Z TXT Report
+
 -------------------------------------------------------------------------
 
-Binaries
+# Binaries
 -------------------------------------------------------------------------
 
 CPU-Z version			2.06.1.x64
 
-Processors
+# Processors
 -------------------------------------------------------------------------
 
 CPU Groups			1
@@ -19,7 +19,7 @@ CPU Group 0			4 threads, mask=0xF
 Number of sockets		1
 Number of threads		4
 
-APICs
+## APICs
 -------------------------------------------------------------------------
 
 Socket 0	
@@ -32,7 +32,7 @@ Socket 0
 	-- Core 3 (ID 6)	
 		-- Thread 3	6
 
-Timers
+## Timers
 -------------------------------------------------------------------------
 
 	ACPI timer		3.580 MHz
@@ -40,7 +40,7 @@ Timers
 	Sys timer		1.000 KHz
 
 
-Processors Information
+## Processors Information
 -------------------------------------------------------------------------
 
 Socket 1			ID = 0
@@ -97,7 +97,7 @@ Socket 1			ID = 0
 	Core 3 max ratio	28.00 (effective 28.00)
 
 
-Thread dumps
+## Thread dumps
 -------------------------------------------------------------------------
 
 CPU Thread 0	
@@ -302,7 +302,7 @@ CPU Thread 3
 
 
 
-BIOS
+# BIOS
 -------------------------------------------------------------------------
 
 UEFI				Yes
@@ -311,7 +311,7 @@ BIOS MSG			63-0100-000001-00101111-042915-Chipset
 BIOS Date			04/29/15
 Mainboard Vendor		000001
 
-Chipset
+# Chipset
 -------------------------------------------------------------------------
 
 Northbridge			Intel Braswell Host Bridge rev. 35
@@ -331,19 +331,15 @@ Host Bridge			0x2280
 	SBR[1:3]		0x60B28204
 
 
-Memory SPD
--------------------------------------------------------------------------
 
 
-Monitoring
+## Monitoring
 -------------------------------------------------------------------------
 
 Mainboard Model		X541SC (0x00000188 - 0x00573E60)
 
-LPCIO
--------------------------------------------------------------------------
 
-Hardware Monitors
+### Hardware Monitors
 -------------------------------------------------------------------------
 
 Hardware monitor		NVIDIA NVAPI
@@ -352,7 +348,7 @@ Hardware monitor		NVIDIA NVAPI
 	Clock Speed 2		n.a. (Processor)
 
 
-PCI Devices
+#### PCI Devices
 -------------------------------------------------------------------------
 
 Register space			PCI Express, base address = 0x0E0000000
@@ -1226,7 +1222,7 @@ PCI registers
 	1F0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
 
 
-DMI
+## DMI
 -------------------------------------------------------------------------
 
 SMBIOS Version			3.0
@@ -1332,7 +1328,7 @@ DMI data
 	030	0xFF 0xFF 0x00 0x04 0x05 0x04 
 
 
-Storage
+# Storage
 -------------------------------------------------------------------------
 
 Drive	0/0/-1/-1
@@ -1352,19 +1348,19 @@ Drive	0/0/-1/-1
 	Volume			f:\, 128.5 GBytes (37.5 percent available)
 
 
-USB Devices
+# USB Devices
 -------------------------------------------------------------------------
 
 USB Device			USB Composite Device, class=0x00, subclass=0x00, vendor=0x18F8, product=0x1286
 USB Device			Generic Bluetooth Adapter, class=0xE0, subclass=0x01, vendor=0x0BDA, product=0xB721
 USB Device			USB Composite Device, class=0xEF, subclass=0x02, vendor=0x0BDA, product=0x57DE
 
-Graphics
+# Graphics
 -------------------------------------------------------------------------
 
 Number of adapters		2
 
-Graphic APIs
+## Graphic APIs
 -------------------------------------------------------------------------
 
 API				D3D
@@ -1372,7 +1368,7 @@ API				NVIDIA I/O
 API				NVIDIA NVAPI
 API				Intel I/O
 
-Display Adapters
+## Display Adapters
 -------------------------------------------------------------------------
 
 Display adapter 0	
@@ -1448,14 +1444,14 @@ Monitor 1
 	Gamma Factor		2.2
 
 
-Software
+# Software
 -------------------------------------------------------------------------
 
 Windows Version			Microsoft Windows 10 (10.0) Professional 64-bit   (Build 19042) 
 DirectX Version			12.0
 
 
-Register Spaces
+# Register Spaces
 -------------------------------------------------------------------------
 
 Register space			PCI
