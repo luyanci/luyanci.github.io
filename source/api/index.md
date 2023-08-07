@@ -1,697 +1,1465 @@
 ---
 title: PCinfo
+cover: /image/img/6.jpg
 ---
-<html><head><title>CPU-Z HTML report file</title></head><body bgcolor=FFFFFF>
-<font face="Verdana" color="#000000">
-<table border=0 width="100%" cellspacing="0" cellpadding="5">
-<tr align="left">
-<td>
-<p><a href="http://www.cpuid.com" target=blank><img src="http://www.cpuid.com/medias/images/en/header-logo.jpg" border="0" width="180" height="66"></a></p>
-</td>
-</tr>
-<tr><td><table border="0" width="100%" cellspacing="2" cellpadding="2" bgcolor="#FFFFFF">
-<tr valign="top" bgcolor="#E0E0FF"><td width="300"><small><b>CPU-Z</b></small></td><td valign="center"><small><small><font color="#0000A0">&nbsp;</font></small></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;</small></td><td valign="center"><small><font color="#0000A0">&nbsp;</font></small></td></tr>
-<tr valign="top" bgcolor="#E0E0FF"><td width="300"><small><b>Binaries</b></small></td><td valign="center"><small><small><font color="#0000A0">&nbsp;</font></small></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>CPU-Z version</small></td><td valign="center"><small><font color="#0000A0">2.06.1.x64</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;</small></td><td valign="center"><small><font color="#0000A0">&nbsp;</font></small></td></tr>
-<tr valign="top" bgcolor="#E0E0FF"><td width="300"><small><b>Processors</b></small></td><td valign="center"><small><small><font color="#0000A0">&nbsp;</font></small></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>CPU Groups</small></td><td valign="center"><small><font color="#0000A0">1</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>CPU Group 0</small></td><td valign="center"><small><font color="#0000A0">4 threads, mask=0xF</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;</small></td><td valign="center"><small><font color="#0000A0">&nbsp;</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>Number of sockets</small></td><td valign="center"><small><font color="#0000A0">1</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>Number of threads</small></td><td valign="center"><small><font color="#0000A0">4</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;</small></td><td valign="center"><small><font color="#0000A0">&nbsp;</font></small></td></tr>
-<tr valign="top" bgcolor="#E0E0FF"><td width="300"><small><b>APICs</b></small></td><td valign="center"><small><small><font color="#0000A0">&nbsp;</font></small></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>Socket 0</small></td><td valign="center"><small><font color="#0000A0"></font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	-- Core 0 (ID 0)</small></td><td valign="center"><small><font color="#0000A0"></font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		-- Thread 0</small></td><td valign="center"><small><font color="#0000A0">0</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	-- Core 1 (ID 2)</small></td><td valign="center"><small><font color="#0000A0"></font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		-- Thread 1</small></td><td valign="center"><small><font color="#0000A0">2</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	-- Core 2 (ID 4)</small></td><td valign="center"><small><font color="#0000A0"></font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		-- Thread 2</small></td><td valign="center"><small><font color="#0000A0">4</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	-- Core 3 (ID 6)</small></td><td valign="center"><small><font color="#0000A0"></font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		-- Thread 3</small></td><td valign="center"><small><font color="#0000A0">6</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;</small></td><td valign="center"><small><font color="#0000A0">&nbsp;</font></small></td></tr>
-<tr valign="top" bgcolor="#E0E0FF"><td width="300"><small><b>Timers</b></small></td><td valign="center"><small><small><font color="#0000A0">&nbsp;</font></small></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	ACPI timer</small></td><td valign="center"><small><font color="#0000A0">3.580 MHz</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Perf timer</small></td><td valign="center"><small><font color="#0000A0">10.000 MHz</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Sys timer</small></td><td valign="center"><small><font color="#0000A0">1.000 KHz</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;</small></td><td valign="center"><small><font color="#0000A0">&nbsp;</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;</small></td><td valign="center"><small><font color="#0000A0">&nbsp;</font></small></td></tr>
-<tr valign="top" bgcolor="#E0E0FF"><td width="300"><small><b>Processors Information</b></small></td><td valign="center"><small><small><font color="#0000A0">&nbsp;</font></small></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>Socket 1</small></td><td valign="center"><small><font color="#0000A0">ID = 0</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Number of cores</small></td><td valign="center"><small><font color="#0000A0">4 (max 4)</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Number of threads</small></td><td valign="center"><small><font color="#0000A0">4 (max 4)</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Manufacturer</small></td><td valign="center"><small><font color="#0000A0">GenuineIntel</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Name</small></td><td valign="center"><small><font color="#0000A0">Intel Celeron</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Codename</small></td><td valign="center"><small><font color="#0000A0">Braswell</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Specification</small></td><td valign="center"><small><font color="#0000A0">Intel(R) Celeron(R) CPU  N3160  @ 1.60GHz</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Package (platform ID)</small></td><td valign="center"><small><font color="#0000A0">Socket 1170 BGA (0x0)</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	CPUID</small></td><td valign="center"><small><font color="#0000A0">6.C.4</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Extended CPUID</small></td><td valign="center"><small><font color="#0000A0">6.4C</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Core Stepping</small></td><td valign="center"><small><font color="#0000A0">D1</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Technology</small></td><td valign="center"><small><font color="#0000A0">14 nm</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Tjmax</small></td><td valign="center"><small><font color="#0000A0">90.0 �C</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Core Speed</small></td><td valign="center"><small><font color="#0000A0">2240.1 MHz</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Multiplier x Bus Speed</small></td><td valign="center"><small><font color="#0000A0">28.0 x 80.0 MHz</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Base frequency (cores)</small></td><td valign="center"><small><font color="#0000A0">80.0 MHz</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Base frequency (mem.)</small></td><td valign="center"><small><font color="#0000A0">80.0 MHz</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Stock frequency</small></td><td valign="center"><small><font color="#0000A0">1600 MHz</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Instructions sets</small></td><td valign="center"><small><font color="#0000A0">MMX, SSE, SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, EM64T, VT-x, AES</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Microcode Revision</small></td><td valign="center"><small><font color="#0000A0">0x410</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	L1 Data cache</small></td><td valign="center"><small><font color="#0000A0">4 x 24 KB (6-way, 64-byte line)</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	L1 Instruction cache</small></td><td valign="center"><small><font color="#0000A0">4 x 32 KB (8-way, 64-byte line)</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	L2 cache</small></td><td valign="center"><small><font color="#0000A0">2 x 1024 KB (16-way, 64-byte line)</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Max CPUID level</small></td><td valign="center"><small><font color="#0000A0">0000000Bh</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Max CPUID ext. level</small></td><td valign="center"><small><font color="#0000A0">80000008h</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	FID/VID Control</small></td><td valign="center"><small><font color="#0000A0">yes</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;</small></td><td valign="center"><small><font color="#0000A0">&nbsp;</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;</small></td><td valign="center"><small><font color="#0000A0">&nbsp;</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Max non-turbo ratio</small></td><td valign="center"><small><font color="#0000A0">20x</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Max turbo ratio</small></td><td valign="center"><small><font color="#0000A0">28x</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Ratio 1 core</small></td><td valign="center"><small><font color="#0000A0">28x</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Ratio 2 cores</small></td><td valign="center"><small><font color="#0000A0">28x</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Ratio 3 cores</small></td><td valign="center"><small><font color="#0000A0">28x</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Ratio 4 cores</small></td><td valign="center"><small><font color="#0000A0">28x</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;</small></td><td valign="center"><small><font color="#0000A0">&nbsp;</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Temperature 0</small></td><td valign="center"><small><font color="#0000A0">66 degC (150 degF) (GT)</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Temperature 1</small></td><td valign="center"><small><font color="#0000A0">74 degC (165 degF) (Cores (Max))</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Temperature 2</small></td><td valign="center"><small><font color="#0000A0">73 degC (163 degF) (Core #0)</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Temperature 3</small></td><td valign="center"><small><font color="#0000A0">74 degC (165 degF) (Core #1)</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Temperature 4</small></td><td valign="center"><small><font color="#0000A0">74 degC (165 degF) (Core #2)</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Temperature 5</small></td><td valign="center"><small><font color="#0000A0">71 degC (159 degF) (Core #3)</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Voltage 0</small></td><td valign="center"><small><font color="#0000A0">0.83 Volts (VID)</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Power 00</small></td><td valign="center"><small><font color="#0000A0">2.99 W (Package)</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Power 01</small></td><td valign="center"><small><font color="#0000A0">0.95 W (IA Cores)</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Clock Speed 0</small></td><td valign="center"><small><font color="#0000A0">2240.08 MHz (Core #0)</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Clock Speed 1</small></td><td valign="center"><small><font color="#0000A0">2240.08 MHz (Core #1)</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Clock Speed 2</small></td><td valign="center"><small><font color="#0000A0">2240.08 MHz (Core #2)</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Clock Speed 3</small></td><td valign="center"><small><font color="#0000A0">2240.08 MHz (Core #3)</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Core 0 max ratio</small></td><td valign="center"><small><font color="#0000A0">28.00 (effective 28.00)</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Core 1 max ratio</small></td><td valign="center"><small><font color="#0000A0">28.00 (effective 28.00)</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Core 2 max ratio</small></td><td valign="center"><small><font color="#0000A0">28.00 (effective 28.00)</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Core 3 max ratio</small></td><td valign="center"><small><font color="#0000A0">28.00 (effective 28.00)</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;</small></td><td valign="center"><small><font color="#0000A0">&nbsp;</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;</small></td><td valign="center"><small><font color="#0000A0">&nbsp;</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;</small></td><td valign="center"><small><font color="#0000A0">&nbsp;</font></small></td></tr>
-<tr valign="top" bgcolor="#E0E0FF"><td width="300"><small><b>Chipset</b></small></td><td valign="center"><small><small><font color="#0000A0">&nbsp;</font></small></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>Northbridge</small></td><td valign="center"><small><font color="#0000A0">Intel Braswell Host Bridge rev. 35</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>Southbridge</small></td><td valign="center"><small><font color="#0000A0">Intel Braswell LPC Bridge rev. 35</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>Bus Specification</small></td><td valign="center"><small><font color="#0000A0">PCI-Express 2.0 (5.0 GT/s)</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>Memory Type</small></td><td valign="center"><small><font color="#0000A0">DDR3</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>Memory Size</small></td><td valign="center"><small><font color="#0000A0">4 GBytes</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>Memory Frequency</small></td><td valign="center"><small><font color="#0000A0">1600.1 MHz (1:20)</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>CAS# latency (CL)</small></td><td valign="center"><small><font color="#0000A0">11.0</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>RAS# to CAS# delay (tRCD)</small></td><td valign="center"><small><font color="#0000A0">11</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>RAS# Precharge (tRP)</small></td><td valign="center"><small><font color="#0000A0">11</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>Cycle Time (tRAS)</small></td><td valign="center"><small><font color="#0000A0">28</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>Command Rate (CR)</small></td><td valign="center"><small><font color="#0000A0">1T</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>Host Bridge</small></td><td valign="center"><small><font color="#0000A0">0x2280</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	SBR[1:1]</small></td><td valign="center"><small><font color="#0000A0">0x1344C630</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	SBR[1:2]</small></td><td valign="center"><small><font color="#0000A0">0x69CB0A05</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	SBR[1:3]</small></td><td valign="center"><small><font color="#0000A0">0x60B28204</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;</small></td><td valign="center"><small><font color="#0000A0">&nbsp;</font></small></td></tr>
-<tr valign="top" bgcolor="#E0E0FF"><td width="300"><small><b>Memory SPD</b></small></td><td valign="center"><small><small><font color="#0000A0">&nbsp;</font></small></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;</small></td><td valign="center"><small><font color="#0000A0">&nbsp;</font></small></td></tr>
-<tr valign="top" bgcolor="#E0E0FF"><td width="300"><small><b>Monitoring</b></small></td><td valign="center"><small><small><font color="#0000A0">&nbsp;</font></small></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>Mainboard Model</small></td><td valign="center"><small><font color="#0000A0">X541SC (0x00000188 - 0x00573E60)</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;</small></td><td valign="center"><small><font color="#0000A0">&nbsp;</font></small></td></tr>
-<tr valign="top" bgcolor="#E0E0FF"><td width="300"><small><b>LPCIO</b></small></td><td valign="center"><small><small><font color="#0000A0">&nbsp;</font></small></small></td></tr>
-<tr valign="top" bgcolor="#E0E0FF"><td width="300"><small><b>Hardware Monitors</b></small></td><td valign="center"><small><small><font color="#0000A0">&nbsp;</font></small></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>Hardware monitor</small></td><td valign="center"><small><font color="#0000A0">NVIDIA NVAPI</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Clock Speed 0</small></td><td valign="center"><small><font color="#0000A0">135.00 MHz [0x87] (Graphics)</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Clock Speed 1</small></td><td valign="center"><small><font color="#0000A0">405.00 MHz [0x195] (Memory)</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Clock Speed 2</small></td><td valign="center"><small><font color="#0000A0">n.a. (Processor)</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;</small></td><td valign="center"><small><font color="#0000A0">&nbsp;</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;</small></td><td valign="center"><small><font color="#0000A0">&nbsp;</font></small></td></tr>
-<tr valign="top" bgcolor="#E0E0FF"><td width="300"><small><b>PCI Devices</b></small></td><td valign="center"><small><small><font color="#0000A0">&nbsp;</font></small></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>Description</small></td><td valign="center"><small><font color="#0000A0">Host Bridge</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>Location</small></td><td valign="center"><small><font color="#0000A0">bus 0 (0x00), device 0 (0x00), function 0 (0x00)</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>Common header</small></td><td valign="center"><small><font color="#0000A0"></font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Vendor ID</small></td><td valign="center"><small><font color="#0000A0">0x8086 (Intel)</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Model ID</small></td><td valign="center"><small><font color="#0000A0">0x2280</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Revision ID</small></td><td valign="center"><small><font color="#0000A0">0x35</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>PCI header</small></td><td valign="center"><small><font color="#0000A0"></font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Subvendor ID</small></td><td valign="center"><small><font color="#0000A0">0x1043 (ASUSTeK)</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Subsystem ID</small></td><td valign="center"><small><font color="#0000A0">0x12E0</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Int. Line</small></td><td valign="center"><small><font color="#0000A0">0x00</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Int. Pin</small></td><td valign="center"><small><font color="#0000A0">0x00</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;</small></td><td valign="center"><small><font color="#0000A0">&nbsp;</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>Description</small></td><td valign="center"><small><font color="#0000A0">VGA Controller</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>Location</small></td><td valign="center"><small><font color="#0000A0">bus 0 (0x00), device 2 (0x02), function 0 (0x00)</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>Common header</small></td><td valign="center"><small><font color="#0000A0"></font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Vendor ID</small></td><td valign="center"><small><font color="#0000A0">0x8086 (Intel)</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Model ID</small></td><td valign="center"><small><font color="#0000A0">0x22B1</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Revision ID</small></td><td valign="center"><small><font color="#0000A0">0x35</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>PCI header</small></td><td valign="center"><small><font color="#0000A0"></font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Address 0 (memory)</small></td><td valign="center"><small><font color="#0000A0">0x0000000080000000</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Address 2 (memory)</small></td><td valign="center"><small><font color="#0000A0">0x0000000090000000</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Address 4 (port)</small></td><td valign="center"><small><font color="#0000A0">0x0000F000</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Subvendor ID</small></td><td valign="center"><small><font color="#0000A0">0x1043 (ASUSTeK)</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Subsystem ID</small></td><td valign="center"><small><font color="#0000A0">0x12E0</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Int. Line</small></td><td valign="center"><small><font color="#0000A0">0x00</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Int. Pin</small></td><td valign="center"><small><font color="#0000A0">0x01</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>PCI capability</small></td><td valign="center"><small><font color="#0000A0"></font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Caps class</small></td><td valign="center"><small><font color="#0000A0">Power Management</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Caps offset</small></td><td valign="center"><small><font color="#0000A0">0xD0</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Caps version</small></td><td valign="center"><small><font color="#0000A0">1.1</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>PCI capability</small></td><td valign="center"><small><font color="#0000A0"></font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Caps class</small></td><td valign="center"><small><font color="#0000A0">Message Signalled Interrupts</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Caps offset</small></td><td valign="center"><small><font color="#0000A0">0x90</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>PCI capability</small></td><td valign="center"><small><font color="#0000A0"></font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Caps class</small></td><td valign="center"><small><font color="#0000A0">Vendor Dependant</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Caps offset</small></td><td valign="center"><small><font color="#0000A0">0xB0</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;</small></td><td valign="center"><small><font color="#0000A0">&nbsp;</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>Description</small></td><td valign="center"><small><font color="#0000A0">Data Aquisition and Signal Processing Device</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>Location</small></td><td valign="center"><small><font color="#0000A0">bus 0 (0x00), device 11 (0x0B), function 0 (0x00)</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>Common header</small></td><td valign="center"><small><font color="#0000A0"></font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Vendor ID</small></td><td valign="center"><small><font color="#0000A0">0x8086 (Intel)</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Model ID</small></td><td valign="center"><small><font color="#0000A0">0x22DC</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Revision ID</small></td><td valign="center"><small><font color="#0000A0">0x35</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>PCI header</small></td><td valign="center"><small><font color="#0000A0"></font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Address 0 (memory)</small></td><td valign="center"><small><font color="#0000A0">0x0000000082521000</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Subvendor ID</small></td><td valign="center"><small><font color="#0000A0">0x1043 (ASUSTeK)</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Subsystem ID</small></td><td valign="center"><small><font color="#0000A0">0x12E0</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Int. Line</small></td><td valign="center"><small><font color="#0000A0">0x15</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Int. Pin</small></td><td valign="center"><small><font color="#0000A0">0x01</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>PCI capability</small></td><td valign="center"><small><font color="#0000A0"></font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Caps class</small></td><td valign="center"><small><font color="#0000A0">Message Signalled Interrupts</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Caps offset</small></td><td valign="center"><small><font color="#0000A0">0x40</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>PCI capability</small></td><td valign="center"><small><font color="#0000A0"></font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Caps class</small></td><td valign="center"><small><font color="#0000A0">Power Management</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Caps offset</small></td><td valign="center"><small><font color="#0000A0">0x50</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Caps version</small></td><td valign="center"><small><font color="#0000A0">1.2</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;</small></td><td valign="center"><small><font color="#0000A0">&nbsp;</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>Description</small></td><td valign="center"><small><font color="#0000A0">Serial ATA Controller - AHCI</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>Location</small></td><td valign="center"><small><font color="#0000A0">bus 0 (0x00), device 19 (0x13), function 0 (0x00)</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>Common header</small></td><td valign="center"><small><font color="#0000A0"></font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Vendor ID</small></td><td valign="center"><small><font color="#0000A0">0x8086 (Intel)</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Model ID</small></td><td valign="center"><small><font color="#0000A0">0x22A3</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Revision ID</small></td><td valign="center"><small><font color="#0000A0">0x35</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>PCI header</small></td><td valign="center"><small><font color="#0000A0"></font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Address 4 (port)</small></td><td valign="center"><small><font color="#0000A0">0x0000F060</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Address 5 (memory)</small></td><td valign="center"><small><font color="#0000A0">0x8251E000</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Subvendor ID</small></td><td valign="center"><small><font color="#0000A0">0x1043 (ASUSTeK)</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Subsystem ID</small></td><td valign="center"><small><font color="#0000A0">0x12E0</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Int. Line</small></td><td valign="center"><small><font color="#0000A0">0x00</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Int. Pin</small></td><td valign="center"><small><font color="#0000A0">0x01</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>PCI capability</small></td><td valign="center"><small><font color="#0000A0"></font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Caps class</small></td><td valign="center"><small><font color="#0000A0">Message Signalled Interrupts</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Caps offset</small></td><td valign="center"><small><font color="#0000A0">0x80</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>PCI capability</small></td><td valign="center"><small><font color="#0000A0"></font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Caps class</small></td><td valign="center"><small><font color="#0000A0">Power Management</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Caps offset</small></td><td valign="center"><small><font color="#0000A0">0x70</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Caps version</small></td><td valign="center"><small><font color="#0000A0">1.2</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>PCI capability</small></td><td valign="center"><small><font color="#0000A0"></font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Caps class</small></td><td valign="center"><small><font color="#0000A0">Serial ATA Configuration</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Caps offset</small></td><td valign="center"><small><font color="#0000A0">0xA8</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;</small></td><td valign="center"><small><font color="#0000A0">&nbsp;</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>Description</small></td><td valign="center"><small><font color="#0000A0">USB Controller (xHCI)</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>Location</small></td><td valign="center"><small><font color="#0000A0">bus 0 (0x00), device 20 (0x14), function 0 (0x00)</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>Common header</small></td><td valign="center"><small><font color="#0000A0"></font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Vendor ID</small></td><td valign="center"><small><font color="#0000A0">0x8086 (Intel)</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Model ID</small></td><td valign="center"><small><font color="#0000A0">0x22B5</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Revision ID</small></td><td valign="center"><small><font color="#0000A0">0x35</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>PCI header</small></td><td valign="center"><small><font color="#0000A0"></font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Address 0 (memory)</small></td><td valign="center"><small><font color="#0000A0">0x0000000082500000</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Subvendor ID</small></td><td valign="center"><small><font color="#0000A0">0x1043 (ASUSTeK)</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Subsystem ID</small></td><td valign="center"><small><font color="#0000A0">0x201F</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Int. Line</small></td><td valign="center"><small><font color="#0000A0">0x00</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Int. Pin</small></td><td valign="center"><small><font color="#0000A0">0x01</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>PCI capability</small></td><td valign="center"><small><font color="#0000A0"></font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Caps class</small></td><td valign="center"><small><font color="#0000A0">Power Management</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Caps offset</small></td><td valign="center"><small><font color="#0000A0">0x70</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Caps version</small></td><td valign="center"><small><font color="#0000A0">1.1</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>PCI capability</small></td><td valign="center"><small><font color="#0000A0"></font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Caps class</small></td><td valign="center"><small><font color="#0000A0">Message Signalled Interrupts</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Caps offset</small></td><td valign="center"><small><font color="#0000A0">0x80</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;</small></td><td valign="center"><small><font color="#0000A0">&nbsp;</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>Description</small></td><td valign="center"><small><font color="#0000A0">Encryption Device</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>Location</small></td><td valign="center"><small><font color="#0000A0">bus 0 (0x00), device 26 (0x1A), function 0 (0x00)</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>Common header</small></td><td valign="center"><small><font color="#0000A0"></font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Vendor ID</small></td><td valign="center"><small><font color="#0000A0">0x8086 (Intel)</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Model ID</small></td><td valign="center"><small><font color="#0000A0">0x2298</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Revision ID</small></td><td valign="center"><small><font color="#0000A0">0x35</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>PCI header</small></td><td valign="center"><small><font color="#0000A0"></font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Address 0 (memory)</small></td><td valign="center"><small><font color="#0000A0">0x82200000</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Address 1 (memory)</small></td><td valign="center"><small><font color="#0000A0">0x82100000</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Subvendor ID</small></td><td valign="center"><small><font color="#0000A0">0x1043 (ASUSTeK)</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Subsystem ID</small></td><td valign="center"><small><font color="#0000A0">0x12E0</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Int. Line</small></td><td valign="center"><small><font color="#0000A0">0x00</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Int. Pin</small></td><td valign="center"><small><font color="#0000A0">0x01</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>PCI capability</small></td><td valign="center"><small><font color="#0000A0"></font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Caps class</small></td><td valign="center"><small><font color="#0000A0">Power Management</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Caps offset</small></td><td valign="center"><small><font color="#0000A0">0x80</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Caps version</small></td><td valign="center"><small><font color="#0000A0">1.2</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>PCI capability</small></td><td valign="center"><small><font color="#0000A0"></font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Caps class</small></td><td valign="center"><small><font color="#0000A0">Message Signalled Interrupts</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Caps offset</small></td><td valign="center"><small><font color="#0000A0">0xA0</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;</small></td><td valign="center"><small><font color="#0000A0">&nbsp;</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>Description</small></td><td valign="center"><small><font color="#0000A0">High Definition Audio (HDA)</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>Location</small></td><td valign="center"><small><font color="#0000A0">bus 0 (0x00), device 27 (0x1B), function 0 (0x00)</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>Common header</small></td><td valign="center"><small><font color="#0000A0"></font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Vendor ID</small></td><td valign="center"><small><font color="#0000A0">0x8086 (Intel)</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Model ID</small></td><td valign="center"><small><font color="#0000A0">0x2284</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Revision ID</small></td><td valign="center"><small><font color="#0000A0">0x35</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>PCI header</small></td><td valign="center"><small><font color="#0000A0"></font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Address 0 (memory)</small></td><td valign="center"><small><font color="#0000A0">0x0000000082510000</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Subvendor ID</small></td><td valign="center"><small><font color="#0000A0">0x1043 (ASUSTeK)</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Subsystem ID</small></td><td valign="center"><small><font color="#0000A0">0x12E0</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Int. Line</small></td><td valign="center"><small><font color="#0000A0">0x16</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Int. Pin</small></td><td valign="center"><small><font color="#0000A0">0x01</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>PCI capability</small></td><td valign="center"><small><font color="#0000A0"></font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Caps class</small></td><td valign="center"><small><font color="#0000A0">Power Management</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Caps offset</small></td><td valign="center"><small><font color="#0000A0">0x50</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Caps version</small></td><td valign="center"><small><font color="#0000A0">1.1</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>PCI capability</small></td><td valign="center"><small><font color="#0000A0"></font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Caps class</small></td><td valign="center"><small><font color="#0000A0">Message Signalled Interrupts</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Caps offset</small></td><td valign="center"><small><font color="#0000A0">0x60</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;</small></td><td valign="center"><small><font color="#0000A0">&nbsp;</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>Description</small></td><td valign="center"><small><font color="#0000A0">PCI to PCI Bridge</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>Location</small></td><td valign="center"><small><font color="#0000A0">bus 0 (0x00), device 28 (0x1C), function 0 (0x00)</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>Common header</small></td><td valign="center"><small><font color="#0000A0"></font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Vendor ID</small></td><td valign="center"><small><font color="#0000A0">0x8086 (Intel)</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Model ID</small></td><td valign="center"><small><font color="#0000A0">0x22C8</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Revision ID</small></td><td valign="center"><small><font color="#0000A0">0x35</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>PCI header</small></td><td valign="center"><small><font color="#0000A0"></font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Primary bus</small></td><td valign="center"><small><font color="#0000A0">0x00</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Secondary bus</small></td><td valign="center"><small><font color="#0000A0">0x01</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Int. Line</small></td><td valign="center"><small><font color="#0000A0">0x00</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Int. Pin</small></td><td valign="center"><small><font color="#0000A0">0x01</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>PCI capability</small></td><td valign="center"><small><font color="#0000A0"></font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Caps class</small></td><td valign="center"><small><font color="#0000A0">PCI Express</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Caps offset</small></td><td valign="center"><small><font color="#0000A0">0x40</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Device type</small></td><td valign="center"><small><font color="#0000A0">Root Port of PCI-E Root Complex</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Port</small></td><td valign="center"><small><font color="#0000A0">1</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Caps version</small></td><td valign="center"><small><font color="#0000A0">2.0</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Physical slot</small></td><td valign="center"><small><font color="#0000A0">#0</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Presence detect</small></td><td valign="center"><small><font color="#0000A0">yes</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Link width</small></td><td valign="center"><small><font color="#0000A0">2x (max 2x)</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Link speed</small></td><td valign="center"><small><font color="#0000A0">2.5 GT/s (max 5.0 GT/s)</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>PCI capability</small></td><td valign="center"><small><font color="#0000A0"></font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Caps class</small></td><td valign="center"><small><font color="#0000A0">Message Signalled Interrupts</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Caps offset</small></td><td valign="center"><small><font color="#0000A0">0x80</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>PCI capability</small></td><td valign="center"><small><font color="#0000A0"></font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Caps class</small></td><td valign="center"><small><font color="#0000A0">Subsystem Vendor</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Caps offset</small></td><td valign="center"><small><font color="#0000A0">0x90</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	SubVendor ID</small></td><td valign="center"><small><font color="#0000A0">0x1043 (ASUSTeK)</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	SubSystem ID</small></td><td valign="center"><small><font color="#0000A0">0x12E0</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>PCI capability</small></td><td valign="center"><small><font color="#0000A0"></font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Caps class</small></td><td valign="center"><small><font color="#0000A0">Power Management</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Caps offset</small></td><td valign="center"><small><font color="#0000A0">0xA0</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Caps version</small></td><td valign="center"><small><font color="#0000A0">1.2</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;</small></td><td valign="center"><small><font color="#0000A0">&nbsp;</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>Description</small></td><td valign="center"><small><font color="#0000A0">PCI to PCI Bridge</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>Location</small></td><td valign="center"><small><font color="#0000A0">bus 0 (0x00), device 28 (0x1C), function 2 (0x02)</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>Common header</small></td><td valign="center"><small><font color="#0000A0"></font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Vendor ID</small></td><td valign="center"><small><font color="#0000A0">0x8086 (Intel)</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Model ID</small></td><td valign="center"><small><font color="#0000A0">0x22CC</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Revision ID</small></td><td valign="center"><small><font color="#0000A0">0x35</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>PCI header</small></td><td valign="center"><small><font color="#0000A0"></font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Primary bus</small></td><td valign="center"><small><font color="#0000A0">0x00</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Secondary bus</small></td><td valign="center"><small><font color="#0000A0">0x02</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Int. Line</small></td><td valign="center"><small><font color="#0000A0">0x00</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Int. Pin</small></td><td valign="center"><small><font color="#0000A0">0x03</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>PCI capability</small></td><td valign="center"><small><font color="#0000A0"></font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Caps class</small></td><td valign="center"><small><font color="#0000A0">PCI Express</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Caps offset</small></td><td valign="center"><small><font color="#0000A0">0x40</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Device type</small></td><td valign="center"><small><font color="#0000A0">Root Port of PCI-E Root Complex</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Port</small></td><td valign="center"><small><font color="#0000A0">3</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Caps version</small></td><td valign="center"><small><font color="#0000A0">2.0</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Physical slot</small></td><td valign="center"><small><font color="#0000A0">#0</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Presence detect</small></td><td valign="center"><small><font color="#0000A0">yes</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Link width</small></td><td valign="center"><small><font color="#0000A0">1x (max 1x)</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Link speed</small></td><td valign="center"><small><font color="#0000A0">2.5 GT/s (max 2.5 GT/s)</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>PCI capability</small></td><td valign="center"><small><font color="#0000A0"></font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Caps class</small></td><td valign="center"><small><font color="#0000A0">Message Signalled Interrupts</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Caps offset</small></td><td valign="center"><small><font color="#0000A0">0x80</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>PCI capability</small></td><td valign="center"><small><font color="#0000A0"></font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Caps class</small></td><td valign="center"><small><font color="#0000A0">Subsystem Vendor</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Caps offset</small></td><td valign="center"><small><font color="#0000A0">0x90</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	SubVendor ID</small></td><td valign="center"><small><font color="#0000A0">0x1043 (ASUSTeK)</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	SubSystem ID</small></td><td valign="center"><small><font color="#0000A0">0x12E0</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>PCI capability</small></td><td valign="center"><small><font color="#0000A0"></font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Caps class</small></td><td valign="center"><small><font color="#0000A0">Power Management</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Caps offset</small></td><td valign="center"><small><font color="#0000A0">0xA0</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Caps version</small></td><td valign="center"><small><font color="#0000A0">1.2</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;</small></td><td valign="center"><small><font color="#0000A0">&nbsp;</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>Description</small></td><td valign="center"><small><font color="#0000A0">PCI to PCI Bridge</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>Location</small></td><td valign="center"><small><font color="#0000A0">bus 0 (0x00), device 28 (0x1C), function 3 (0x03)</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>Common header</small></td><td valign="center"><small><font color="#0000A0"></font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Vendor ID</small></td><td valign="center"><small><font color="#0000A0">0x8086 (Intel)</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Model ID</small></td><td valign="center"><small><font color="#0000A0">0x22CE</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Revision ID</small></td><td valign="center"><small><font color="#0000A0">0x35</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>PCI header</small></td><td valign="center"><small><font color="#0000A0"></font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Primary bus</small></td><td valign="center"><small><font color="#0000A0">0x00</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Secondary bus</small></td><td valign="center"><small><font color="#0000A0">0x03</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Int. Line</small></td><td valign="center"><small><font color="#0000A0">0x00</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Int. Pin</small></td><td valign="center"><small><font color="#0000A0">0x04</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>PCI capability</small></td><td valign="center"><small><font color="#0000A0"></font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Caps class</small></td><td valign="center"><small><font color="#0000A0">PCI Express</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Caps offset</small></td><td valign="center"><small><font color="#0000A0">0x40</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Device type</small></td><td valign="center"><small><font color="#0000A0">Root Port of PCI-E Root Complex</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Port</small></td><td valign="center"><small><font color="#0000A0">4</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Caps version</small></td><td valign="center"><small><font color="#0000A0">2.0</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Physical slot</small></td><td valign="center"><small><font color="#0000A0">#0</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Presence detect</small></td><td valign="center"><small><font color="#0000A0">yes</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Link width</small></td><td valign="center"><small><font color="#0000A0">1x (max 1x)</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Link speed</small></td><td valign="center"><small><font color="#0000A0">2.5 GT/s (max 2.5 GT/s)</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>PCI capability</small></td><td valign="center"><small><font color="#0000A0"></font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Caps class</small></td><td valign="center"><small><font color="#0000A0">Message Signalled Interrupts</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Caps offset</small></td><td valign="center"><small><font color="#0000A0">0x80</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>PCI capability</small></td><td valign="center"><small><font color="#0000A0"></font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Caps class</small></td><td valign="center"><small><font color="#0000A0">Subsystem Vendor</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Caps offset</small></td><td valign="center"><small><font color="#0000A0">0x90</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	SubVendor ID</small></td><td valign="center"><small><font color="#0000A0">0x1043 (ASUSTeK)</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	SubSystem ID</small></td><td valign="center"><small><font color="#0000A0">0x12E0</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>PCI capability</small></td><td valign="center"><small><font color="#0000A0"></font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Caps class</small></td><td valign="center"><small><font color="#0000A0">Power Management</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Caps offset</small></td><td valign="center"><small><font color="#0000A0">0xA0</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Caps version</small></td><td valign="center"><small><font color="#0000A0">1.2</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;</small></td><td valign="center"><small><font color="#0000A0">&nbsp;</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>Description</small></td><td valign="center"><small><font color="#0000A0">PCI to ISA Bridge</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>Location</small></td><td valign="center"><small><font color="#0000A0">bus 0 (0x00), device 31 (0x1F), function 0 (0x00)</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>Common header</small></td><td valign="center"><small><font color="#0000A0"></font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Vendor ID</small></td><td valign="center"><small><font color="#0000A0">0x8086 (Intel)</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Model ID</small></td><td valign="center"><small><font color="#0000A0">0x229C</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Revision ID</small></td><td valign="center"><small><font color="#0000A0">0x35</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>PCI header</small></td><td valign="center"><small><font color="#0000A0"></font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Subvendor ID</small></td><td valign="center"><small><font color="#0000A0">0x1043 (ASUSTeK)</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Subsystem ID</small></td><td valign="center"><small><font color="#0000A0">0x12E0</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Int. Line</small></td><td valign="center"><small><font color="#0000A0">0x00</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Int. Pin</small></td><td valign="center"><small><font color="#0000A0">0x00</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>PCI capability</small></td><td valign="center"><small><font color="#0000A0"></font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Caps class</small></td><td valign="center"><small><font color="#0000A0">Vendor Dependant</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Caps offset</small></td><td valign="center"><small><font color="#0000A0">0xE0</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;</small></td><td valign="center"><small><font color="#0000A0">&nbsp;</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>Description</small></td><td valign="center"><small><font color="#0000A0">SMBus Controller</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>Location</small></td><td valign="center"><small><font color="#0000A0">bus 0 (0x00), device 31 (0x1F), function 3 (0x03)</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>Common header</small></td><td valign="center"><small><font color="#0000A0"></font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Vendor ID</small></td><td valign="center"><small><font color="#0000A0">0x8086 (Intel)</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Model ID</small></td><td valign="center"><small><font color="#0000A0">0x2292</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Revision ID</small></td><td valign="center"><small><font color="#0000A0">0x35</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>PCI header</small></td><td valign="center"><small><font color="#0000A0"></font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Address 0 (memory)</small></td><td valign="center"><small><font color="#0000A0">0x82518000</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Address 4 (port)</small></td><td valign="center"><small><font color="#0000A0">0x0000F040</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Subvendor ID</small></td><td valign="center"><small><font color="#0000A0">0x1043 (ASUSTeK)</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Subsystem ID</small></td><td valign="center"><small><font color="#0000A0">0x12E0</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Int. Line</small></td><td valign="center"><small><font color="#0000A0">0x00</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Int. Pin</small></td><td valign="center"><small><font color="#0000A0">0x02</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>PCI capability</small></td><td valign="center"><small><font color="#0000A0"></font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Caps class</small></td><td valign="center"><small><font color="#0000A0">Power Management</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Caps offset</small></td><td valign="center"><small><font color="#0000A0">0x50</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Caps version</small></td><td valign="center"><small><font color="#0000A0">1.2</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;</small></td><td valign="center"><small><font color="#0000A0">&nbsp;</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>Description</small></td><td valign="center"><small><font color="#0000A0">3D Controller</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>Location</small></td><td valign="center"><small><font color="#0000A0">bus 1 (0x01), device 0 (0x00), function 0 (0x00)</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>Common header</small></td><td valign="center"><small><font color="#0000A0"></font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Vendor ID</small></td><td valign="center"><small><font color="#0000A0">0x10DE (NVIDIA)</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Model ID</small></td><td valign="center"><small><font color="#0000A0">0x0FEE</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Revision ID</small></td><td valign="center"><small><font color="#0000A0">0xA1</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>PCI header</small></td><td valign="center"><small><font color="#0000A0"></font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Address 0 (memory)</small></td><td valign="center"><small><font color="#0000A0">0x81000000</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Address 1 (memory)</small></td><td valign="center"><small><font color="#0000A0">0x00000000A0000000</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Address 3 (memory)</small></td><td valign="center"><small><font color="#0000A0">0x00000000B0000000</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Subvendor ID</small></td><td valign="center"><small><font color="#0000A0">0x1043 (ASUSTeK)</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Subsystem ID</small></td><td valign="center"><small><font color="#0000A0">0x11DE</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Int. Line</small></td><td valign="center"><small><font color="#0000A0">0x00</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Int. Pin</small></td><td valign="center"><small><font color="#0000A0">0x01</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>PCI capability</small></td><td valign="center"><small><font color="#0000A0"></font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Caps class</small></td><td valign="center"><small><font color="#0000A0">Power Management</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Caps offset</small></td><td valign="center"><small><font color="#0000A0">0x60</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Caps version</small></td><td valign="center"><small><font color="#0000A0">1.2</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>PCI capability</small></td><td valign="center"><small><font color="#0000A0"></font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Caps class</small></td><td valign="center"><small><font color="#0000A0">Message Signalled Interrupts</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Caps offset</small></td><td valign="center"><small><font color="#0000A0">0x68</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>PCI capability</small></td><td valign="center"><small><font color="#0000A0"></font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Caps class</small></td><td valign="center"><small><font color="#0000A0">PCI Express</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Caps offset</small></td><td valign="center"><small><font color="#0000A0">0x78</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Device type</small></td><td valign="center"><small><font color="#0000A0">PCI-E Endpoint Device</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Port</small></td><td valign="center"><small><font color="#0000A0">0</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Caps version</small></td><td valign="center"><small><font color="#0000A0">2.0</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Link width</small></td><td valign="center"><small><font color="#0000A0">2x (max 16x)</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Link speed</small></td><td valign="center"><small><font color="#0000A0">2.5 GT/s (max 5.0 GT/s)</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>PCI capability</small></td><td valign="center"><small><font color="#0000A0"></font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Caps class</small></td><td valign="center"><small><font color="#0000A0">Vendor Dependant</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Caps offset</small></td><td valign="center"><small><font color="#0000A0">0xB4</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;</small></td><td valign="center"><small><font color="#0000A0">&nbsp;</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>Description</small></td><td valign="center"><small><font color="#0000A0">Ethernet Controller</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>Location</small></td><td valign="center"><small><font color="#0000A0">bus 2 (0x02), device 0 (0x00), function 0 (0x00)</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>Common header</small></td><td valign="center"><small><font color="#0000A0"></font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Vendor ID</small></td><td valign="center"><small><font color="#0000A0">0x10EC (Realtek)</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Model ID</small></td><td valign="center"><small><font color="#0000A0">0x8136</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Revision ID</small></td><td valign="center"><small><font color="#0000A0">0x07</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>PCI header</small></td><td valign="center"><small><font color="#0000A0"></font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Address 0 (port)</small></td><td valign="center"><small><font color="#0000A0">0x0000D000</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Address 2 (memory)</small></td><td valign="center"><small><font color="#0000A0">0x0000000082400000</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Address 4 (memory)</small></td><td valign="center"><small><font color="#0000A0">0x00000000B2100000</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Subvendor ID</small></td><td valign="center"><small><font color="#0000A0">0x1043 (ASUSTeK)</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Subsystem ID</small></td><td valign="center"><small><font color="#0000A0">0x205F</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Int. Line</small></td><td valign="center"><small><font color="#0000A0">0x00</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Int. Pin</small></td><td valign="center"><small><font color="#0000A0">0x01</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>PCI capability</small></td><td valign="center"><small><font color="#0000A0"></font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Caps class</small></td><td valign="center"><small><font color="#0000A0">Power Management</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Caps offset</small></td><td valign="center"><small><font color="#0000A0">0x40</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Caps version</small></td><td valign="center"><small><font color="#0000A0">1.2</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>PCI capability</small></td><td valign="center"><small><font color="#0000A0"></font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Caps class</small></td><td valign="center"><small><font color="#0000A0">Message Signalled Interrupts</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Caps offset</small></td><td valign="center"><small><font color="#0000A0">0x50</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>PCI capability</small></td><td valign="center"><small><font color="#0000A0"></font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Caps class</small></td><td valign="center"><small><font color="#0000A0">PCI Express</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Caps offset</small></td><td valign="center"><small><font color="#0000A0">0x70</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Device type</small></td><td valign="center"><small><font color="#0000A0">PCI-E Endpoint Device</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Port</small></td><td valign="center"><small><font color="#0000A0">0</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Caps version</small></td><td valign="center"><small><font color="#0000A0">2.0</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Link width</small></td><td valign="center"><small><font color="#0000A0">1x (max 1x)</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Link speed</small></td><td valign="center"><small><font color="#0000A0">2.5 GT/s (max 2.5 GT/s)</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>PCI capability</small></td><td valign="center"><small><font color="#0000A0"></font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Caps class</small></td><td valign="center"><small><font color="#0000A0">MSI-X</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Caps offset</small></td><td valign="center"><small><font color="#0000A0">0xB0</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>PCI capability</small></td><td valign="center"><small><font color="#0000A0"></font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Caps class</small></td><td valign="center"><small><font color="#0000A0">Virtual Product Data</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Caps offset</small></td><td valign="center"><small><font color="#0000A0">0xD0</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;</small></td><td valign="center"><small><font color="#0000A0">&nbsp;</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>Description</small></td><td valign="center"><small><font color="#0000A0">Network Controller</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>Location</small></td><td valign="center"><small><font color="#0000A0">bus 3 (0x03), device 0 (0x00), function 0 (0x00)</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>Common header</small></td><td valign="center"><small><font color="#0000A0"></font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Vendor ID</small></td><td valign="center"><small><font color="#0000A0">0x10EC (Realtek)</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Model ID</small></td><td valign="center"><small><font color="#0000A0">0xB723</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Revision ID</small></td><td valign="center"><small><font color="#0000A0">0x00</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>PCI header</small></td><td valign="center"><small><font color="#0000A0"></font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Address 0 (port)</small></td><td valign="center"><small><font color="#0000A0">0x0000C000</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Address 2 (memory)</small></td><td valign="center"><small><font color="#0000A0">0x0000000082300000</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Subvendor ID</small></td><td valign="center"><small><font color="#0000A0">0x11AD</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Subsystem ID</small></td><td valign="center"><small><font color="#0000A0">0x1723</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Int. Line</small></td><td valign="center"><small><font color="#0000A0">0x00</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Int. Pin</small></td><td valign="center"><small><font color="#0000A0">0x01</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>PCI capability</small></td><td valign="center"><small><font color="#0000A0"></font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Caps class</small></td><td valign="center"><small><font color="#0000A0">Power Management</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Caps offset</small></td><td valign="center"><small><font color="#0000A0">0x40</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Caps version</small></td><td valign="center"><small><font color="#0000A0">1.2</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>PCI capability</small></td><td valign="center"><small><font color="#0000A0"></font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Caps class</small></td><td valign="center"><small><font color="#0000A0">Message Signalled Interrupts</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Caps offset</small></td><td valign="center"><small><font color="#0000A0">0x50</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>PCI capability</small></td><td valign="center"><small><font color="#0000A0"></font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Caps class</small></td><td valign="center"><small><font color="#0000A0">PCI Express</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Caps offset</small></td><td valign="center"><small><font color="#0000A0">0x70</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Device type</small></td><td valign="center"><small><font color="#0000A0">PCI-E Endpoint Device</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Port</small></td><td valign="center"><small><font color="#0000A0">0</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Caps version</small></td><td valign="center"><small><font color="#0000A0">2.0</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Link width</small></td><td valign="center"><small><font color="#0000A0">1x (max 1x)</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Link speed</small></td><td valign="center"><small><font color="#0000A0">2.5 GT/s (max 2.5 GT/s)</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;</small></td><td valign="center"><small><font color="#0000A0">&nbsp;</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;</small></td><td valign="center"><small><font color="#0000A0">&nbsp;</font></small></td></tr>
-<tr valign="top" bgcolor="#E0E0FF"><td width="300"><small><b>DMI</b></small></td><td valign="center"><small><small><font color="#0000A0">&nbsp;</font></small></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>SMBIOS Version</small></td><td valign="center"><small><font color="#0000A0">3.0</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;</small></td><td valign="center"><small><font color="#0000A0">&nbsp;</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>DMI BIOS</small></td><td valign="center"><small><font color="#0000A0"></font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	vendor</small></td><td valign="center"><small><font color="#0000A0">American Megatrends Inc.</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	version</small></td><td valign="center"><small><font color="#0000A0">X541SC.303</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	date</small></td><td valign="center"><small><font color="#0000A0">04/19/2019</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	ROM size</small></td><td valign="center"><small><font color="#0000A0">6144 KB</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;</small></td><td valign="center"><small><font color="#0000A0">&nbsp;</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>DMI System Information</small></td><td valign="center"><small><font color="#0000A0"></font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	manufacturer</small></td><td valign="center"><small><font color="#0000A0">ASUSTeK COMPUTER INC.</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	product</small></td><td valign="center"><small><font color="#0000A0">X541SC</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	version</small></td><td valign="center"><small><font color="#0000A0">1.0</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	serial</small></td><td valign="center"><small><font color="#0000A0">GCN0CV033790493</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	UUID</small></td><td valign="center"><small><font color="#0000A0">{7114926C-E9D9-F545-97FA-814C80624160}</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	SKU</small></td><td valign="center"><small><font color="#0000A0">ASUS-NotebookSKU</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	family</small></td><td valign="center"><small><font color="#0000A0">unknown</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;</small></td><td valign="center"><small><font color="#0000A0">&nbsp;</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>DMI Baseboard</small></td><td valign="center"><small><font color="#0000A0"></font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	vendor</small></td><td valign="center"><small><font color="#0000A0">ASUSTeK COMPUTER INC.</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	model</small></td><td valign="center"><small><font color="#0000A0">X541SC</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	revision</small></td><td valign="center"><small><font color="#0000A0">1.0</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	serial</small></td><td valign="center"><small><font color="#0000A0">BSN12345678901234567</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;</small></td><td valign="center"><small><font color="#0000A0">&nbsp;</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>DMI System Enclosure</small></td><td valign="center"><small><font color="#0000A0"></font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	manufacturer</small></td><td valign="center"><small><font color="#0000A0">ASUSTeK COMPUTER INC.</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	chassis type</small></td><td valign="center"><small><font color="#0000A0">Notebook</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	chassis serial</small></td><td valign="center"><small><font color="#0000A0">GCN0CV033790493</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;</small></td><td valign="center"><small><font color="#0000A0">&nbsp;</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>DMI OEM Strings</small></td><td valign="center"><small><font color="#0000A0"></font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	string[0]</small></td><td valign="center"><small><font color="#0000A0">             </font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	string[1]</small></td><td valign="center"><small><font color="#0000A0">             </font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	string[2]</small></td><td valign="center"><small><font color="#0000A0">             </font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	string[3]</small></td><td valign="center"><small><font color="#0000A0">90NB0CI1-M00110</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	string[4]</small></td><td valign="center"><small><font color="#0000A0"> </font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	string[5]</small></td><td valign="center"><small><font color="#0000A0"> </font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	string[6]</small></td><td valign="center"><small><font color="#0000A0"> </font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	string[7]</small></td><td valign="center"><small><font color="#0000A0"> </font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	string[8]</small></td><td valign="center"><small><font color="#0000A0"> </font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	string[9]</small></td><td valign="center"><small><font color="#0000A0"> </font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;</small></td><td valign="center"><small><font color="#0000A0">&nbsp;</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>DMI Physical Memory Array</small></td><td valign="center"><small><font color="#0000A0"></font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	location</small></td><td valign="center"><small><font color="#0000A0">Motherboard</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	usage</small></td><td valign="center"><small><font color="#0000A0">System Memory</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	correction</small></td><td valign="center"><small><font color="#0000A0">None</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	max capacity</small></td><td valign="center"><small><font color="#0000A0">8 GB</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	max# of devices</small></td><td valign="center"><small><font color="#0000A0">2</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;</small></td><td valign="center"><small><font color="#0000A0">&nbsp;</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>DMI Memory Device</small></td><td valign="center"><small><font color="#0000A0"></font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	designation</small></td><td valign="center"><small><font color="#0000A0">A1_DIMM0</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	format</small></td><td valign="center"><small><font color="#0000A0">DIMM</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	type</small></td><td valign="center"><small><font color="#0000A0">DDR3</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	total width</small></td><td valign="center"><small><font color="#0000A0">64 bits</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	data width</small></td><td valign="center"><small><font color="#0000A0">64 bits</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	size</small></td><td valign="center"><small><font color="#0000A0">4 GB</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	speed</small></td><td valign="center"><small><font color="#0000A0">1066 MHz</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	manufacturer</small></td><td valign="center"><small><font color="#0000A0">SK Hynix</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	part number</small></td><td valign="center"><small><font color="#0000A0">HMT451S6CFR6A-PB  </font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	serial number</small></td><td valign="center"><small><font color="#0000A0">00000000  </font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	voltage</small></td><td valign="center"><small><font color="#0000A0">1.350000</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	manufacturer id</small></td><td valign="center"><small><font color="#0000A0">0x4D49</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	product id</small></td><td valign="center"><small><font color="#0000A0">0x304D</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>DMI data</small></td><td valign="center"><small><font color="#0000A0"></font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	000</small></td><td valign="center"><small><font color="#0000A0">0x11 0x28 0x0C 0x00 0x0A 0x00 0xFE 0xFF 0x40 0x00 </font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	010</small></td><td valign="center"><small><font color="#0000A0">0x40 0x00 0x00 0x10 0x09 0x00 0x01 0x02 0x18 0x80 </font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	020</small></td><td valign="center"><small><font color="#0000A0">0x00 0x40 0x06 0x03 0x04 0x05 0x06 0x02 0x00 0x00 </font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	030</small></td><td valign="center"><small><font color="#0000A0">0x00 0x00 0x2A 0x04 0x46 0x05 0xDC 0x05 0x46 0x05 </font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	040</small></td><td valign="center"><small><font color="#0000A0">0x41 0x31 0x5F 0x44 0x49 0x4D 0x4D 0x30 0x00 0x41 </font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	050</small></td><td valign="center"><small><font color="#0000A0">0x31 0x5F 0x42 0x41 0x4E 0x4B 0x30 0x00 0x53 0x4B </font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	060</small></td><td valign="center"><small><font color="#0000A0">0x20 0x48 0x79 0x6E </font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;</small></td><td valign="center"><small><font color="#0000A0">&nbsp;</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>DMI Memory Device</small></td><td valign="center"><small><font color="#0000A0"></font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	designation</small></td><td valign="center"><small><font color="#0000A0">A1_DIMM1</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	format</small></td><td valign="center"><small><font color="#0000A0">DIMM</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	type</small></td><td valign="center"><small><font color="#0000A0">DDR2</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	data width</small></td><td valign="center"><small><font color="#0000A0">64 bits</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	manufacturer</small></td><td valign="center"><small><font color="#0000A0">A1_Manufacturer1</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	part number</small></td><td valign="center"><small><font color="#0000A0">Array1_PartNumber1</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	serial number</small></td><td valign="center"><small><font color="#0000A0">A1_SerNum1</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	manufacturer id</small></td><td valign="center"><small><font color="#0000A0">0x4D49</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	product id</small></td><td valign="center"><small><font color="#0000A0">0x314D</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>DMI data</small></td><td valign="center"><small><font color="#0000A0"></font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	000</small></td><td valign="center"><small><font color="#0000A0">0x11 0x28 0x0E 0x00 0x0A 0x00 0xFE 0xFF 0xFF 0xFF </font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	010</small></td><td valign="center"><small><font color="#0000A0">0x40 0x00 0x00 0x00 0x09 0x00 0x01 0x02 0x13 0x80 </font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	020</small></td><td valign="center"><small><font color="#0000A0">0x00 0x00 0x00 0x03 0x04 0x05 0x06 0x00 0x00 0x00 </font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	030</small></td><td valign="center"><small><font color="#0000A0">0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 </font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	040</small></td><td valign="center"><small><font color="#0000A0">0x41 0x31 0x5F 0x44 0x49 0x4D 0x4D 0x31 0x00 0x41 </font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	050</small></td><td valign="center"><small><font color="#0000A0">0x31 0x5F 0x42 0x41 0x4E 0x4B 0x31 0x00 0x41 0x31 </font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	060</small></td><td valign="center"><small><font color="#0000A0">0x5F 0x4D 0x61 0x6E </font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;</small></td><td valign="center"><small><font color="#0000A0">&nbsp;</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>DMI Processor</small></td><td valign="center"><small><font color="#0000A0"></font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	manufacturer</small></td><td valign="center"><small><font color="#0000A0">Intel</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	model</small></td><td valign="center"><small><font color="#0000A0">Intel(R) Celeron(R) CPU N3160 @ 1.60GHz</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	clock speed</small></td><td valign="center"><small><font color="#0000A0">1600.0 MHz</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	FSB speed</small></td><td valign="center"><small><font color="#0000A0">80.0 MHz</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	multiplier</small></td><td valign="center"><small><font color="#0000A0">20.0x</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	max clock speed</small></td><td valign="center"><small><font color="#0000A0">2400.0 MHz</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>DMI data</small></td><td valign="center"><small><font color="#0000A0"></font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	000</small></td><td valign="center"><small><font color="#0000A0">0x04 0x30 0x13 0x00 0x01 0x03 0x0F 0x02 0xC4 0x06 </font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	010</small></td><td valign="center"><small><font color="#0000A0">0x04 0x00 0xFF 0xFB 0xEB 0xBF 0x03 0x8C 0x50 0x00 </font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	020</small></td><td valign="center"><small><font color="#0000A0">0x60 0x09 0x40 0x06 0x41 0x24 0x11 0x00 0x12 0x00 </font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	030</small></td><td valign="center"><small><font color="#0000A0">0xFF 0xFF 0x00 0x04 0x05 0x04 </font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;</small></td><td valign="center"><small><font color="#0000A0">&nbsp;</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;</small></td><td valign="center"><small><font color="#0000A0">&nbsp;</font></small></td></tr>
-<tr valign="top" bgcolor="#E0E0FF"><td width="300"><small><b>Graphics</b></small></td><td valign="center"><small><small><font color="#0000A0">&nbsp;</font></small></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>Number of adapters</small></td><td valign="center"><small><font color="#0000A0">2</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;</small></td><td valign="center"><small><font color="#0000A0">&nbsp;</font></small></td></tr>
-<tr valign="top" bgcolor="#E0E0FF"><td width="300"><small><b>Graphic APIs</b></small></td><td valign="center"><small><small><font color="#0000A0">&nbsp;</font></small></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>API</small></td><td valign="center"><small><font color="#0000A0">D3D</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>API</small></td><td valign="center"><small><font color="#0000A0">NVIDIA I/O</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>API</small></td><td valign="center"><small><font color="#0000A0">NVIDIA NVAPI</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>API</small></td><td valign="center"><small><font color="#0000A0">Intel I/O</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;</small></td><td valign="center"><small><font color="#0000A0">&nbsp;</font></small></td></tr>
-<tr valign="top" bgcolor="#E0E0FF"><td width="300"><small><b>Display Adapters</b></small></td><td valign="center"><small><small><font color="#0000A0">&nbsp;</font></small></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>Display adapter 0</small></td><td valign="center"><small><font color="#0000A0"></font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	ID</small></td><td valign="center"><small><font color="#0000A0">0x1070107</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Name</small></td><td valign="center"><small><font color="#0000A0">NVIDIA GeForce 810M</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Board Manufacturer</small></td><td valign="center"><small><font color="#0000A0">ASUSTeK Computer Inc.</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Revision</small></td><td valign="center"><small><font color="#0000A0">A2</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Codename</small></td><td valign="center"><small><font color="#0000A0">GK107</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Core family</small></td><td valign="center"><small><font color="#0000A0">0xE7 (GK107)</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Cores</small></td><td valign="center"><small><font color="#0000A0">192</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	ROP Units</small></td><td valign="center"><small><font color="#0000A0">8</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Technology</small></td><td valign="center"><small><font color="#0000A0">28 nm</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Memory type</small></td><td valign="center"><small><font color="#0000A0">DDR3 (Hynix)</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Memory size</small></td><td valign="center"><small><font color="#0000A0">2 GB</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Memory bus width</small></td><td valign="center"><small><font color="#0000A0">64 bits</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	PCI device</small></td><td valign="center"><small><font color="#0000A0">bus 1 (0x1), device 0 (0x0), function 0 (0x0)</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		Vendor ID</small></td><td valign="center"><small><font color="#0000A0">0x10DE (0x1043)</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		Model ID</small></td><td valign="center"><small><font color="#0000A0">0x0FEE (0x11DE)</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		Revision ID</small></td><td valign="center"><small><font color="#0000A0">0xA1</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Root device</small></td><td valign="center"><small><font color="#0000A0">bus 0 (0x0), device 28 (0x1C), function 0 (0x0)</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Performance Level</small></td><td valign="center"><small><font color="#0000A0">Base</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		Core clock</small></td><td valign="center"><small><font color="#0000A0">835.0 MHz</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		Memory clock</small></td><td valign="center"><small><font color="#0000A0">900.0 MHz</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Performance Level</small></td><td valign="center"><small><font color="#0000A0">Boost</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		Core clock</small></td><td valign="center"><small><font color="#0000A0">950.0 MHz</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		Memory clock</small></td><td valign="center"><small><font color="#0000A0">900.0 MHz</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Performance Level</small></td><td valign="center"><small><font color="#0000A0">Current</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		Core clock</small></td><td valign="center"><small><font color="#0000A0">405.0 MHz</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		Memory clock</small></td><td valign="center"><small><font color="#0000A0">405.0 MHz</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Driver version</small></td><td valign="center"><small><font color="#0000A0">25.21.14.2531</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	WDDM Model</small></td><td valign="center"><small><font color="#0000A0">2.5</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;</small></td><td valign="center"><small><font color="#0000A0">&nbsp;</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>Display adapter 1</small></td><td valign="center"><small><font color="#0000A0"></font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	ID</small></td><td valign="center"><small><font color="#0000A0">0x4000000</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Name</small></td><td valign="center"><small><font color="#0000A0">Intel(R) HD Graphics</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Board Manufacturer</small></td><td valign="center"><small><font color="#0000A0">ASUSTeK Computer Inc.</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	PCI device</small></td><td valign="center"><small><font color="#0000A0">bus 0 (0x0), device 2 (0x2), function 0 (0x0)</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		Vendor ID</small></td><td valign="center"><small><font color="#0000A0">0x8086 (0x1043)</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		Model ID</small></td><td valign="center"><small><font color="#0000A0">0x22B1 (0x12E0)</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		Revision ID</small></td><td valign="center"><small><font color="#0000A0">0x35</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Driver version</small></td><td valign="center"><small><font color="#0000A0">20.19.15.5107</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	WDDM Model</small></td><td valign="center"><small><font color="#0000A0">2.0</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;</small></td><td valign="center"><small><font color="#0000A0">&nbsp;</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>Win32_VideoController</small></td><td valign="center"><small><font color="#0000A0">AdapterRAM = 0x40000000 (1073741824)</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>Win32_VideoController</small></td><td valign="center"><small><font color="#0000A0">AdapterRAM = 0x80000000 (2147483648)</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>Win32_VideoController</small></td><td valign="center"><small><font color="#0000A0">DriverVersion = 20.19.15.5107</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>Win32_VideoController</small></td><td valign="center"><small><font color="#0000A0">DriverVersion = 25.21.14.2531</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>Win32_VideoController</small></td><td valign="center"><small><font color="#0000A0">DriverDate = 11/15/2019</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>Win32_VideoController</small></td><td valign="center"><small><font color="#0000A0">DriverDate = 04/09/2019</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;</small></td><td valign="center"><small><font color="#0000A0">&nbsp;</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>Monitor 0</small></td><td valign="center"><small><font color="#0000A0"></font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Model</small></td><td valign="center"><small><font color="#0000A0"> ()</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	ID</small></td><td valign="center"><small><font color="#0000A0">LGD04E1</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Serial</small></td><td valign="center"><small><font color="#0000A0"></font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Manufacturing Date</small></td><td valign="center"><small><font color="#0000A0">Week 0, Year 2015</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Size</small></td><td valign="center"><small><font color="#0000A0">15.3 inches</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Max Resolution</small></td><td valign="center"><small><font color="#0000A0">1366 x 768 @ 60 Hz</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Horizontal Freq. Range</small></td><td valign="center"><small><font color="#0000A0">0-0 kHz</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Vertical Freq. Range</small></td><td valign="center"><small><font color="#0000A0">0-0 Hz</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Max Pixel Clock</small></td><td valign="center"><small><font color="#0000A0">0 MHz</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Gamma Factor</small></td><td valign="center"><small><font color="#0000A0">2.2</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;</small></td><td valign="center"><small><font color="#0000A0">&nbsp;</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>Monitor 1</small></td><td valign="center"><small><font color="#0000A0"></font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Model</small></td><td valign="center"><small><font color="#0000A0">VE228 ()</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	ID</small></td><td valign="center"><small><font color="#0000A0">ACI22FA</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Serial</small></td><td valign="center"><small><font color="#0000A0">D2LMQS040554</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Manufacturing Date</small></td><td valign="center"><small><font color="#0000A0">Week 8, Year 2013</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Size</small></td><td valign="center"><small><font color="#0000A0">21.7 inches</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Max Resolution</small></td><td valign="center"><small><font color="#0000A0">1920 x 1080 @ 60 Hz</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Horizontal Freq. Range</small></td><td valign="center"><small><font color="#0000A0">30-83 kHz</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Vertical Freq. Range</small></td><td valign="center"><small><font color="#0000A0">50-76 Hz</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Max Pixel Clock</small></td><td valign="center"><small><font color="#0000A0">170 MHz</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;&nbsp;&nbsp;&nbsp;	Gamma Factor</small></td><td valign="center"><small><font color="#0000A0">2.2</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;</small></td><td valign="center"><small><font color="#0000A0">&nbsp;</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;</small></td><td valign="center"><small><font color="#0000A0">&nbsp;</font></small></td></tr>
-<tr valign="top" bgcolor="#E0E0FF"><td width="300"><small><b>Software</b></small></td><td valign="center"><small><small><font color="#0000A0">&nbsp;</font></small></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>Windows Version</small></td><td valign="center"><small><font color="#0000A0">Microsoft Windows 10 (10.0) Professional 64-bit   (Build 19042) </font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>DirectX Version</small></td><td valign="center"><small><font color="#0000A0">12.0</font></small></td></tr>
-<tr valign="top" bgcolor="#FFFFFF"><td width="300"><small>&nbsp;</small></td><td valign="center"><small><font color="#0000A0">&nbsp;</font></small></td></tr>
-</table></td></tr>
-</font></body></html>
+CPU-Z TXT Report
+-------------------------------------------------------------------------
+
+Binaries
+-------------------------------------------------------------------------
+
+CPU-Z version			2.06.1.x64
+
+Processors
+-------------------------------------------------------------------------
+
+CPU Groups			1
+CPU Group 0			4 threads, mask=0xF
+
+Number of sockets		1
+Number of threads		4
+
+APICs
+-------------------------------------------------------------------------
+
+Socket 0	
+	-- Core 0 (ID 0)	
+		-- Thread 0	0
+	-- Core 1 (ID 2)	
+		-- Thread 1	2
+	-- Core 2 (ID 4)	
+		-- Thread 2	4
+	-- Core 3 (ID 6)	
+		-- Thread 3	6
+
+Timers
+-------------------------------------------------------------------------
+
+	ACPI timer		3.580 MHz
+	Perf timer		10.000 MHz
+	Sys timer		1.000 KHz
+
+
+Processors Information
+-------------------------------------------------------------------------
+
+Socket 1			ID = 0
+	Number of cores		4 (max 4)
+	Number of threads	4 (max 4)
+	Manufacturer		GenuineIntel
+	Name			Intel Celeron
+	Codename		Braswell
+	Specification		Intel(R) Celeron(R) CPU  N3160  @ 1.60GHz
+	Package (platform ID)	Socket 1170 BGA (0x0)
+	CPUID			6.C.4
+	Extended CPUID		6.4C
+	Core Stepping		D1
+	Technology		14 nm
+	Tjmax			90.0 癈
+	Core Speed		2239.1 MHz
+	Multiplier x Bus Speed	28.0 x 80.0 MHz
+	Base frequency (cores)	80.0 MHz
+	Base frequency (mem.)	80.0 MHz
+	Stock frequency		1600 MHz
+	Instructions sets	MMX, SSE, SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, EM64T, VT-x, AES
+	Microcode Revision	0x410
+	L1 Data cache		4 x 24 KB (6-way, 64-byte line)
+	L1 Instruction cache	4 x 32 KB (8-way, 64-byte line)
+	L2 cache		2 x 1024 KB (16-way, 64-byte line)
+	Max CPUID level		0000000Bh
+	Max CPUID ext. level	80000008h
+	FID/VID Control		yes
+
+
+	Max non-turbo ratio	20x
+	Max turbo ratio		28x
+	Ratio 1 core		28x
+	Ratio 2 cores		28x
+	Ratio 3 cores		28x
+	Ratio 4 cores		28x
+
+	Temperature 0		75 degC (167 degF) (GT)
+	Temperature 1		83 degC (181 degF) (Cores (Max))
+	Temperature 2		83 degC (181 degF) (Core #0)
+	Temperature 3		83 degC (181 degF) (Core #1)
+	Temperature 4		83 degC (181 degF) (Core #2)
+	Temperature 5		80 degC (176 degF) (Core #3)
+	Voltage 0		0.83 Volts (VID)
+	Power 00		3.34 W (Package)
+	Power 01		0.93 W (IA Cores)
+	Clock Speed 0		2239.08 MHz (Core #0)
+	Clock Speed 1		2239.08 MHz (Core #1)
+	Clock Speed 2		2239.08 MHz (Core #2)
+	Clock Speed 3		2239.08 MHz (Core #3)
+	Core 0 max ratio	28.00 (effective 28.00)
+	Core 1 max ratio	28.00 (effective 28.00)
+	Core 2 max ratio	28.00 (effective 28.00)
+	Core 3 max ratio	28.00 (effective 28.00)
+
+
+Thread dumps
+-------------------------------------------------------------------------
+
+CPU Thread 0	
+	APIC ID			0
+	Topology		Processor ID 0, Core ID 0, Thread ID 0
+	Cache descriptor	Level 1, D, 24 KB, 1 thread(s)
+	Cache descriptor	Level 1, I, 32 KB, 1 thread(s)
+	Cache descriptor	Level 2, U, 1 MB, 4 thread(s)
+
+	CPUID		 
+	0x00000000		0x0000000B	0x756E6547	0x6C65746E	0x49656E69
+	0x00000001		0x000406C4	0x00100800	0x43D8E3BF	0xBFEBFBFF
+	0x00000002		0x61B4A001	0x0000FFC2	0x00000000	0x00000000
+	0x00000003		0x00000000	0x00000000	0x00000000	0x00000000
+	0x00000004		0x1C000121	0x0140003F	0x0000003F	0x00000001
+	0x00000004		0x1C000122	0x01C0003F	0x0000003F	0x00000001
+	0x00000004		0x1C00C143	0x03C0003F	0x000003FF	0x00000001
+	0x00000005		0x00000040	0x00000040	0x00000003	0x33000020
+	0x00000006		0x00000007	0x00000002	0x00000009	0x00000000
+	0x00000007		0x00000000	0x00002282	0x00000000	0x0C000000
+	0x00000008		0x00000000	0x00000000	0x00000000	0x00000000
+	0x00000009		0x00000000	0x00000000	0x00000000	0x00000000
+	0x0000000A		0x07280203	0x00000000	0x00000000	0x00000503
+	0x0000000B		0x00000001	0x00000001	0x00000100	0x00000000
+	0x0000000B		0x00000004	0x00000004	0x00000201	0x00000000
+	0x80000000		0x80000008	0x00000000	0x00000000	0x00000000
+	0x80000001		0x00000000	0x00000000	0x00000101	0x28100800
+	0x80000002		0x20202020	0x6E492020	0x286C6574	0x43202952
+	0x80000003		0x72656C65	0x52286E6F	0x50432029	0x4E202055
+	0x80000004		0x30363133	0x20402020	0x30362E31	0x007A4847
+	0x80000005		0x00000000	0x00000000	0x00000000	0x00000000
+	0x80000006		0x00000000	0x00000000	0x04008040	0x00000000
+	0x80000007		0x00000000	0x00000000	0x00000000	0x00000100
+	0x80000008		0x00003024	0x00000000	0x00000000	0x00000000
+
+	MSR 0x0000001B		0x00000000	0xFEE00900
+	MSR 0x0000003A		0x00000000	0x00000005
+	MSR 0x000001A0		0x00000000	0x00850089
+	MSR 0x0000066C		0x00000000	0x1C1C1C1C
+	MSR 0x00000017		0x000000F0	0x90041C53
+	MSR 0x000000CE		0x00000600	0x02001400
+	MSR 0x000000CD		0x00000000	0x00000004
+	MSR 0x00000606		0x00000000	0x00000505
+	MSR 0x00000601		0x00000000	0x00000000
+	MSR 0x00000610		0x001481D5	0x003880BB
+	MSR 0x00000611		0x00000000	0x0A8EADB3
+	MSR 0x00000639		0x00000000	0x049970AC
+	MSR 0x0000019C		0x00000000	0x881F010A
+	MSR 0x000001A2		0x00000000	0x035A0000
+	MSR 0x00000198		0x00007A00	0x00001C53
+	MSR 0x00000199		0x00000000	0x00001C53
+
+CPU Thread 1	
+	APIC ID			2
+	Topology		Processor ID 0, Core ID 2, Thread ID 0
+	Cache descriptor	Level 1, D, 24 KB, 1 thread(s)
+	Cache descriptor	Level 1, I, 32 KB, 1 thread(s)
+	Cache descriptor	Level 2, U, 1 MB, 4 thread(s)
+
+	CPUID		 
+	0x00000000		0x0000000B	0x756E6547	0x6C65746E	0x49656E69
+	0x00000001		0x000406C4	0x02100800	0x43D8E3BF	0xBFEBFBFF
+	0x00000002		0x61B4A001	0x0000FFC2	0x00000000	0x00000000
+	0x00000003		0x00000000	0x00000000	0x00000000	0x00000000
+	0x00000004		0x1C000121	0x0140003F	0x0000003F	0x00000001
+	0x00000004		0x1C000122	0x01C0003F	0x0000003F	0x00000001
+	0x00000004		0x1C00C143	0x03C0003F	0x000003FF	0x00000001
+	0x00000005		0x00000040	0x00000040	0x00000003	0x33000020
+	0x00000006		0x00000007	0x00000002	0x00000009	0x00000000
+	0x00000007		0x00000000	0x00002282	0x00000000	0x0C000000
+	0x00000008		0x00000000	0x00000000	0x00000000	0x00000000
+	0x00000009		0x00000000	0x00000000	0x00000000	0x00000000
+	0x0000000A		0x07280203	0x00000000	0x00000000	0x00000503
+	0x0000000B		0x00000001	0x00000001	0x00000100	0x00000002
+	0x0000000B		0x00000004	0x00000004	0x00000201	0x00000002
+	0x80000000		0x80000008	0x00000000	0x00000000	0x00000000
+	0x80000001		0x00000000	0x00000000	0x00000101	0x28100800
+	0x80000002		0x20202020	0x6E492020	0x286C6574	0x43202952
+	0x80000003		0x72656C65	0x52286E6F	0x50432029	0x4E202055
+	0x80000004		0x30363133	0x20402020	0x30362E31	0x007A4847
+	0x80000005		0x00000000	0x00000000	0x00000000	0x00000000
+	0x80000006		0x00000000	0x00000000	0x04008040	0x00000000
+	0x80000007		0x00000000	0x00000000	0x00000000	0x00000100
+	0x80000008		0x00003024	0x00000000	0x00000000	0x00000000
+
+	MSR 0x0000001B		0x00000000	0xFEE00800
+	MSR 0x0000003A		0x00000000	0x00000005
+	MSR 0x000001A0		0x00000000	0x00850089
+	MSR 0x0000066C		0x00000000	0x1C1C1C1C
+	MSR 0x00000017		0x000000F0	0x90041C53
+	MSR 0x000000CE		0x00000600	0x02001400
+	MSR 0x000000CD		0x00000000	0x00000004
+	MSR 0x00000606		0x00000000	0x00000505
+	MSR 0x00000601		0x00000000	0x00000000
+	MSR 0x00000610		0x001481D5	0x003880BB
+	MSR 0x00000611		0x00000000	0x0A8EB2A3
+	MSR 0x00000639		0x00000000	0x0499735F
+	MSR 0x0000019C		0x00000000	0x881C010A
+	MSR 0x000001A2		0x00000000	0x035A0000
+	MSR 0x00000198		0x00007A00	0x00001C53
+	MSR 0x00000199		0x00000000	0x00001C53
+
+CPU Thread 2	
+	APIC ID			4
+	Topology		Processor ID 0, Core ID 4, Thread ID 0
+	Cache descriptor	Level 1, D, 24 KB, 1 thread(s)
+	Cache descriptor	Level 1, I, 32 KB, 1 thread(s)
+	Cache descriptor	Level 2, U, 1 MB, 4 thread(s)
+
+	CPUID		 
+	0x00000000		0x0000000B	0x756E6547	0x6C65746E	0x49656E69
+	0x00000001		0x000406C4	0x04100800	0x43D8E3BF	0xBFEBFBFF
+	0x00000002		0x61B4A001	0x0000FFC2	0x00000000	0x00000000
+	0x00000003		0x00000000	0x00000000	0x00000000	0x00000000
+	0x00000004		0x1C000121	0x0140003F	0x0000003F	0x00000001
+	0x00000004		0x1C000122	0x01C0003F	0x0000003F	0x00000001
+	0x00000004		0x1C00C143	0x03C0003F	0x000003FF	0x00000001
+	0x00000005		0x00000040	0x00000040	0x00000003	0x33000020
+	0x00000006		0x00000007	0x00000002	0x00000009	0x00000000
+	0x00000007		0x00000000	0x00002282	0x00000000	0x0C000000
+	0x00000008		0x00000000	0x00000000	0x00000000	0x00000000
+	0x00000009		0x00000000	0x00000000	0x00000000	0x00000000
+	0x0000000A		0x07280203	0x00000000	0x00000000	0x00000503
+	0x0000000B		0x00000001	0x00000001	0x00000100	0x00000004
+	0x0000000B		0x00000004	0x00000004	0x00000201	0x00000004
+	0x80000000		0x80000008	0x00000000	0x00000000	0x00000000
+	0x80000001		0x00000000	0x00000000	0x00000101	0x28100800
+	0x80000002		0x20202020	0x6E492020	0x286C6574	0x43202952
+	0x80000003		0x72656C65	0x52286E6F	0x50432029	0x4E202055
+	0x80000004		0x30363133	0x20402020	0x30362E31	0x007A4847
+	0x80000005		0x00000000	0x00000000	0x00000000	0x00000000
+	0x80000006		0x00000000	0x00000000	0x04008040	0x00000000
+	0x80000007		0x00000000	0x00000000	0x00000000	0x00000100
+	0x80000008		0x00003024	0x00000000	0x00000000	0x00000000
+
+	MSR 0x0000001B		0x00000000	0xFEE00800
+	MSR 0x0000003A		0x00000000	0x00000005
+	MSR 0x000001A0		0x00000000	0x00850089
+	MSR 0x0000066C		0x00000000	0x1C1C1C1C
+	MSR 0x00000017		0x000000F0	0x90041C53
+	MSR 0x000000CE		0x00000600	0x02001400
+	MSR 0x000000CD		0x00000000	0x00000004
+	MSR 0x00000606		0x00000000	0x00000505
+	MSR 0x00000601		0x00000000	0x00000000
+	MSR 0x00000610		0x001481D5	0x003880BB
+	MSR 0x00000611		0x00000000	0x0A8EB9A8
+	MSR 0x00000639		0x00000000	0x049977A2
+	MSR 0x0000019C		0x00000000	0x881B010A
+	MSR 0x000001A2		0x00000000	0x035A0000
+	MSR 0x00000198		0x00007A00	0x00001C53
+	MSR 0x00000199		0x00000000	0x00001C53
+
+CPU Thread 3	
+	APIC ID			6
+	Topology		Processor ID 0, Core ID 6, Thread ID 0
+	Cache descriptor	Level 1, D, 24 KB, 1 thread(s)
+	Cache descriptor	Level 1, I, 32 KB, 1 thread(s)
+	Cache descriptor	Level 2, U, 1 MB, 4 thread(s)
+
+	CPUID		 
+	0x00000000		0x0000000B	0x756E6547	0x6C65746E	0x49656E69
+	0x00000001		0x000406C4	0x06100800	0x43D8E3BF	0xBFEBFBFF
+	0x00000002		0x61B4A001	0x0000FFC2	0x00000000	0x00000000
+	0x00000003		0x00000000	0x00000000	0x00000000	0x00000000
+	0x00000004		0x1C000121	0x0140003F	0x0000003F	0x00000001
+	0x00000004		0x1C000122	0x01C0003F	0x0000003F	0x00000001
+	0x00000004		0x1C00C143	0x03C0003F	0x000003FF	0x00000001
+	0x00000005		0x00000040	0x00000040	0x00000003	0x33000020
+	0x00000006		0x00000007	0x00000002	0x00000009	0x00000000
+	0x00000007		0x00000000	0x00002282	0x00000000	0x0C000000
+	0x00000008		0x00000000	0x00000000	0x00000000	0x00000000
+	0x00000009		0x00000000	0x00000000	0x00000000	0x00000000
+	0x0000000A		0x07280203	0x00000000	0x00000000	0x00000503
+	0x0000000B		0x00000001	0x00000001	0x00000100	0x00000006
+	0x0000000B		0x00000004	0x00000004	0x00000201	0x00000006
+	0x80000000		0x80000008	0x00000000	0x00000000	0x00000000
+	0x80000001		0x00000000	0x00000000	0x00000101	0x28100800
+	0x80000002		0x20202020	0x6E492020	0x286C6574	0x43202952
+	0x80000003		0x72656C65	0x52286E6F	0x50432029	0x4E202055
+	0x80000004		0x30363133	0x20402020	0x30362E31	0x007A4847
+	0x80000005		0x00000000	0x00000000	0x00000000	0x00000000
+	0x80000006		0x00000000	0x00000000	0x04008040	0x00000000
+	0x80000007		0x00000000	0x00000000	0x00000000	0x00000100
+	0x80000008		0x00003024	0x00000000	0x00000000	0x00000000
+
+	MSR 0x0000001B		0x00000000	0xFEE00800
+	MSR 0x0000003A		0x00000000	0x00000005
+	MSR 0x000001A0		0x00000000	0x00850089
+	MSR 0x0000066C		0x00000000	0x1C1C1C1C
+	MSR 0x00000017		0x000000F0	0x90041C53
+	MSR 0x000000CE		0x00000600	0x02001400
+	MSR 0x000000CD		0x00000000	0x00000004
+	MSR 0x00000606		0x00000000	0x00000505
+	MSR 0x00000601		0x00000000	0x00000000
+	MSR 0x00000610		0x001481D5	0x003880BB
+	MSR 0x00000611		0x00000000	0x0A8EBEAD
+	MSR 0x00000639		0x00000000	0x04997A69
+	MSR 0x0000019C		0x00000000	0x881E010A
+	MSR 0x000001A2		0x00000000	0x035A0000
+	MSR 0x00000198		0x00007A00	0x00001C53
+	MSR 0x00000199		0x00000000	0x00001C53
+
+
+
+BIOS
+-------------------------------------------------------------------------
+
+UEFI				Yes
+BIOS Vendor			American Megatrends Inc.
+BIOS MSG			63-0100-000001-00101111-042915-Chipset
+BIOS Date			04/29/15
+Mainboard Vendor		000001
+
+Chipset
+-------------------------------------------------------------------------
+
+Northbridge			Intel Braswell Host Bridge rev. 35
+Southbridge			Intel Braswell LPC Bridge rev. 35
+Bus Specification		PCI-Express 2.0 (5.0 GT/s)
+Memory Type			DDR3
+Memory Size			4 GBytes
+Memory Frequency		1599.3 MHz (1:20)
+CAS# latency (CL)		11.0
+RAS# to CAS# delay (tRCD)	11
+RAS# Precharge (tRP)		11
+Cycle Time (tRAS)		28
+Command Rate (CR)		1T
+Host Bridge			0x2280
+	SBR[1:1]		0x1344C630
+	SBR[1:2]		0x69CB0A05
+	SBR[1:3]		0x60B28204
+
+
+Memory SPD
+-------------------------------------------------------------------------
+
+
+Monitoring
+-------------------------------------------------------------------------
+
+Mainboard Model		X541SC (0x00000188 - 0x00573E60)
+
+LPCIO
+-------------------------------------------------------------------------
+
+Hardware Monitors
+-------------------------------------------------------------------------
+
+Hardware monitor		NVIDIA NVAPI
+	Clock Speed 0		405.00 MHz [0x195] (Graphics)
+	Clock Speed 1		405.00 MHz [0x195] (Memory)
+	Clock Speed 2		n.a. (Processor)
+
+
+PCI Devices
+-------------------------------------------------------------------------
+
+Register space			PCI Express, base address = 0x0E0000000
+
+Description			Host Bridge
+Location			bus 0 (0x00), device 0 (0x00), function 0 (0x00)
+Common header
+	Vendor ID		0x8086 (Intel)
+	Model ID		0x2280
+	Revision ID		0x35
+	PI			0x00
+	SubClass		0x00
+	BaseClass		0x06
+	Cache Line		0x00
+	Latency			0x00
+	Header			0x00
+PCI header
+	Subvendor ID		0x1043 (ASUSTeK)
+	Subsystem ID		0x12E0
+	Int. Line		0x00
+	Int. Pin		0x00
+PCI registers	
+		00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F 
+	00	86 80 80 22 07 00 00 00 35 00 00 06 00 00 00 00 
+	10	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	20	00 00 00 00 00 00 00 00 00 00 00 00 43 10 E0 12 
+	30	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	40	12 83 01 00 9F FF 07 80 12 83 01 00 00 00 00 00 
+	50	02 81 00 00 02 81 00 00 02 81 00 00 00 00 00 00 
+	60	02 83 01 00 9F FF 07 80 12 83 01 00 00 00 00 00 
+	70	02 83 01 00 9F FF 07 80 02 83 01 00 00 00 00 00 
+	80	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	90	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	A0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	B0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	C0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	D0	00 00 00 00 04 82 B2 60 00 00 00 00 00 00 00 00 
+	E0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	F0	01 20 34 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+Description			VGA Controller
+Location			bus 0 (0x00), device 2 (0x02), function 0 (0x00)
+Common header
+	Vendor ID		0x8086 (Intel)
+	Model ID		0x22B1
+	Revision ID		0x35
+	PI			0x00
+	SubClass		0x00
+	BaseClass		0x03
+	Cache Line		0x00
+	Latency			0x00
+	Header			0x00
+PCI header
+	Address 0 (memory)	0x0000000080000000
+	Address 2 (memory)	0x0000000090000000
+	Address 4 (port)	0x0000F000
+	Subvendor ID		0x1043 (ASUSTeK)
+	Subsystem ID		0x12E0
+	Int. Line		0x00
+	Int. Pin		0x01
+PCI capability
+	Caps class		Power Management
+	Caps offset		0xD0
+	Caps version		1.1
+PCI capability
+	Caps class		Message Signalled Interrupts
+	Caps offset		0x90
+PCI capability
+	Caps class		Vendor Dependant
+	Caps offset		0xB0
+PCI registers	
+		00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F 
+	00	86 80 B1 22 07 04 10 00 35 00 00 03 00 00 00 00 
+	10	04 00 00 80 00 00 00 00 0C 00 00 90 00 00 00 00 
+	20	01 F0 00 00 00 00 00 00 00 00 00 00 43 10 E0 12 
+	30	00 00 00 00 D0 00 00 00 00 00 00 00 00 01 00 00 
+	40	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	50	09 02 00 00 00 00 00 00 00 00 00 00 01 00 F0 7C 
+	60	00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	70	01 00 80 7C 57 00 00 00 00 00 00 00 00 00 00 00 
+	80	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	90	05 B0 01 00 0C F0 E0 FE A2 49 00 00 00 00 00 00 
+	A0	00 00 00 00 13 00 06 03 00 00 00 00 00 00 00 00 
+	B0	09 00 07 01 00 00 00 00 00 00 00 00 00 00 00 00 
+	C0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	D0	01 90 22 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	E0	00 80 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	F0	00 00 00 00 00 00 00 00 00 00 00 00 00 A0 D9 7A 
+
+Description			Data Aquisition and Signal Processing Device
+Location			bus 0 (0x00), device 11 (0x0B), function 0 (0x00)
+Common header
+	Vendor ID		0x8086 (Intel)
+	Model ID		0x22DC
+	Revision ID		0x35
+	PI			0x00
+	SubClass		0x80
+	BaseClass		0x11
+	Cache Line		0x00
+	Latency			0x00
+	Header			0x00
+PCI header
+	Address 0 (memory)	0x0000000082521000
+	Subvendor ID		0x1043 (ASUSTeK)
+	Subsystem ID		0x12E0
+	Int. Line		0x15
+	Int. Pin		0x01
+PCI capability
+	Caps class		Message Signalled Interrupts
+	Caps offset		0x40
+PCI capability
+	Caps class		Power Management
+	Caps offset		0x50
+	Caps version		1.2
+PCI registers	
+		00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F 
+	00	86 80 DC 22 06 00 10 00 35 00 80 11 00 00 00 00 
+	10	04 10 52 82 00 00 00 00 00 00 00 00 00 00 00 00 
+	20	00 00 00 00 00 00 00 00 00 00 00 00 43 10 E0 12 
+	30	00 00 00 00 40 00 00 00 00 00 00 00 15 01 00 00 
+	40	05 50 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	50	01 00 03 00 08 00 00 00 00 00 00 00 00 00 00 00 
+	60	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	70	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	80	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	90	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	A0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	B0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	C0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	D0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	E0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	F0	00 00 00 00 00 00 00 00 1C 0F 35 04 00 00 00 00 
+
+Description			Serial ATA Controller - AHCI
+Location			bus 0 (0x00), device 19 (0x13), function 0 (0x00)
+Common header
+	Vendor ID		0x8086 (Intel)
+	Model ID		0x22A3
+	Revision ID		0x35
+	PI			0x01
+	SubClass		0x06
+	BaseClass		0x01
+	Cache Line		0x00
+	Latency			0x00
+	Header			0x00
+PCI header
+	Address 4 (port)	0x0000F060
+	Address 5 (memory)	0x8251E000
+	Subvendor ID		0x1043 (ASUSTeK)
+	Subsystem ID		0x12E0
+	Int. Line		0x00
+	Int. Pin		0x01
+PCI capability
+	Caps class		Message Signalled Interrupts
+	Caps offset		0x80
+PCI capability
+	Caps class		Power Management
+	Caps offset		0x70
+	Caps version		1.2
+PCI capability
+	Caps class		Serial ATA Configuration
+	Caps offset		0xA8
+PCI registers	
+		00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F 
+	00	86 80 A3 22 07 04 B0 02 35 01 06 01 00 00 00 00 
+	10	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	20	61 F0 00 00 00 E0 51 82 00 00 00 00 43 10 E0 12 
+	30	00 00 00 00 80 00 00 00 00 00 00 00 00 01 00 00 
+	40	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	50	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	60	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	70	01 A8 03 40 08 00 00 00 00 00 00 00 00 00 00 00 
+	80	05 70 01 00 0C F0 E0 FE B2 49 00 00 00 00 00 00 
+	90	80 0E 01 81 83 01 00 3C 20 02 DC 22 20 70 00 80 
+	A0	6C 00 00 00 03 06 0C 13 12 00 10 00 48 00 00 00 
+	B0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	C0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	D0	11 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 
+	E0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	F0	00 00 00 00 00 00 00 00 1C 0F 35 04 00 00 00 00 
+
+Description			USB Controller (xHCI)
+Location			bus 0 (0x00), device 20 (0x14), function 0 (0x00)
+Common header
+	Vendor ID		0x8086 (Intel)
+	Model ID		0x22B5
+	Revision ID		0x35
+	PI			0x30
+	SubClass		0x03
+	BaseClass		0x0C
+	Cache Line		0x00
+	Latency			0x00
+	Header			0x00
+PCI header
+	Address 0 (memory)	0x0000000082500000
+	Subvendor ID		0x1043 (ASUSTeK)
+	Subsystem ID		0x201F
+	Int. Line		0x00
+	Int. Pin		0x01
+PCI capability
+	Caps class		Power Management
+	Caps offset		0x70
+	Caps version		1.1
+PCI capability
+	Caps class		Message Signalled Interrupts
+	Caps offset		0x80
+PCI registers	
+		00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F 
+	00	86 80 B5 22 06 04 90 02 35 30 03 0C 00 00 00 00 
+	10	04 00 50 82 00 00 00 00 00 00 00 00 00 00 00 00 
+	20	00 00 00 00 00 00 00 00 00 00 00 00 43 10 1F 20 
+	30	00 00 00 00 70 00 00 00 00 00 00 00 00 01 00 00 
+	40	FD 01 34 80 8F C6 CF 83 00 00 00 00 00 00 00 00 
+	50	3F 6D DF 0F 00 00 00 00 00 00 00 00 00 00 00 00 
+	60	30 60 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	70	01 80 C2 C1 08 01 00 00 00 00 00 00 00 00 00 00 
+	80	05 00 87 00 0C F0 E0 FE 00 00 00 00 82 49 00 00 
+	90	09 00 14 F0 10 00 40 01 00 00 00 00 C1 0A 08 00 
+	A0	00 08 04 00 00 18 00 00 8F 40 02 00 00 01 04 00 
+	B0	03 00 00 00 04 00 00 00 00 00 00 00 00 00 00 00 
+	C0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	D0	03 00 00 00 04 00 00 00 00 00 00 00 00 00 00 00 
+	E0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	F0	00 00 00 00 00 00 00 00 1C 0F 35 04 00 00 00 00 
+
+Description			Encryption Device
+Location			bus 0 (0x00), device 26 (0x1A), function 0 (0x00)
+Common header
+	Vendor ID		0x8086 (Intel)
+	Model ID		0x2298
+	Revision ID		0x35
+	PI			0x00
+	SubClass		0x80
+	BaseClass		0x10
+	Cache Line		0x10
+	Latency			0x00
+	Header			0x00
+PCI header
+	Address 0 (memory)	0x82200000
+	Address 1 (memory)	0x82100000
+	Subvendor ID		0x1043 (ASUSTeK)
+	Subsystem ID		0x12E0
+	Int. Line		0x00
+	Int. Pin		0x01
+PCI capability
+	Caps class		Power Management
+	Caps offset		0x80
+	Caps version		1.2
+PCI capability
+	Caps class		Message Signalled Interrupts
+	Caps offset		0xA0
+PCI registers	
+		00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F 
+	00	86 80 98 22 06 05 10 00 35 00 80 10 10 00 00 00 
+	10	00 00 20 82 00 00 10 82 00 00 00 00 00 00 00 00 
+	20	00 00 00 00 00 00 00 00 00 00 00 00 43 10 E0 12 
+	30	00 00 00 00 80 00 00 00 00 00 00 00 00 01 00 00 
+	40	C5 00 00 1F 00 48 11 80 00 00 00 60 00 00 00 00 
+	50	00 00 00 00 04 00 00 00 00 00 00 00 00 00 00 00 
+	60	00 00 00 10 01 00 00 00 00 00 00 00 00 00 00 00 
+	70	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	80	01 A0 03 48 08 00 00 00 FF 00 00 00 00 00 00 00 
+	90	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	A0	05 00 01 00 0C F0 E0 FE 72 49 00 00 00 00 00 00 
+	B0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	C0	09 10 00 00 00 00 F0 7E 00 00 10 01 00 00 00 00 
+	D0	08 30 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	E0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	F0	00 00 00 00 00 00 00 00 1C 0F 35 04 00 00 00 00 
+
+Description			High Definition Audio (HDA)
+Location			bus 0 (0x00), device 27 (0x1B), function 0 (0x00)
+Common header
+	Vendor ID		0x8086 (Intel)
+	Model ID		0x2284
+	Revision ID		0x35
+	PI			0x00
+	SubClass		0x03
+	BaseClass		0x04
+	Cache Line		0x10
+	Latency			0x00
+	Header			0x00
+PCI header
+	Address 0 (memory)	0x0000000082510000
+	Subvendor ID		0x1043 (ASUSTeK)
+	Subsystem ID		0x12E0
+	Int. Line		0x16
+	Int. Pin		0x01
+PCI capability
+	Caps class		Power Management
+	Caps offset		0x50
+	Caps version		1.1
+PCI capability
+	Caps class		Message Signalled Interrupts
+	Caps offset		0x60
+PCI registers	
+		00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F 
+	00	86 80 84 22 06 00 10 00 35 00 03 04 10 00 00 00 
+	10	04 00 51 82 00 00 00 00 00 00 00 00 00 00 00 00 
+	20	00 00 00 00 00 00 00 00 00 00 00 00 43 10 E0 12 
+	30	00 00 00 00 50 00 00 00 00 00 00 00 16 01 00 00 
+	40	01 00 00 5F FF FF FF FF FF FF FF FF 00 00 00 00 
+	50	01 60 42 C8 00 00 00 00 FF FF FF FF FF FF FF FF 
+	60	05 00 80 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	70	10 00 91 00 00 00 00 10 00 08 10 00 FF FF FF FF 
+	80	FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 
+	90	FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 
+	A0	FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 
+	B0	FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 
+	C0	00 04 00 01 02 24 00 4C 00 00 A3 82 10 00 33 02 
+	D0	00 0C A3 82 10 00 33 02 FF FF FF FF FF FF FF FF 
+	E0	FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 
+	F0	FF FF FF FF FF FF FF FF 1C 0F 35 04 FF FF FF FF 
+
+Description			PCI to PCI Bridge
+Location			bus 0 (0x00), device 28 (0x1C), function 0 (0x00)
+Common header
+	Vendor ID		0x8086 (Intel)
+	Model ID		0x22C8
+	Revision ID		0x35
+	PI			0x00
+	SubClass		0x04
+	BaseClass		0x06
+	Cache Line		0x10
+	Latency			0x00
+	Header			0x81
+PCI header
+	Primary bus		0x00
+	Secondary bus		0x01
+	Int. Line		0x00
+	Int. Pin		0x01
+PCI capability
+	Caps class		PCI Express
+	Caps offset		0x40
+	Device type		Root Port of PCI-E Root Complex
+	Port			1
+	Caps version		2.0
+	Physical slot		#0
+	Presence detect		yes
+	Link width		2x (max 2x)
+	Link speed		2.5 GT/s (max 5.0 GT/s)
+PCI capability
+	Caps class		Message Signalled Interrupts
+	Caps offset		0x80
+PCI capability
+	Caps class		Subsystem Vendor
+	Caps offset		0x90
+	SubVendor ID		0x1043 (ASUSTeK)
+	SubSystem ID		0x12E0
+PCI capability
+	Caps class		Power Management
+	Caps offset		0xA0
+	Caps version		1.2
+PCI registers	
+		00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F 
+	00	86 80 C8 22 07 04 10 00 35 00 04 06 10 00 81 00 
+	10	00 00 00 00 00 00 00 00 00 01 01 00 E0 E0 00 20 
+	20	00 81 00 82 01 A0 F1 B1 00 00 00 00 00 00 00 00 
+	30	00 00 00 00 40 00 00 00 00 00 00 00 00 01 00 00 
+	40	10 80 42 01 00 80 00 00 00 00 10 00 22 3C 32 01 
+	50	40 00 21 70 00 00 04 00 00 00 48 01 08 00 00 00 
+	60	00 00 00 00 17 08 00 00 00 04 00 00 00 00 00 00 
+	70	02 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	80	05 90 01 00 0C F0 E0 FE 71 49 00 00 00 00 00 00 
+	90	0D A0 00 00 43 10 E0 12 00 00 00 00 00 00 00 00 
+	A0	01 00 03 C8 08 00 00 00 00 00 00 00 00 00 00 00 
+	B0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	C0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	D0	00 C0 02 00 42 08 00 00 00 80 11 89 00 00 00 00 
+	E0	00 FF 30 00 00 00 00 00 07 00 00 00 00 00 00 00 
+	F0	50 00 00 00 C0 01 00 00 1C 0F 35 04 04 40 00 01 
+	100	00 00 00 20 00 00 00 00 00 00 00 00 11 00 06 00 
+	110	00 00 00 00 00 20 00 00 00 00 00 00 00 00 00 00 
+	120	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	130	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	140	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	150	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	160	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	170	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	180	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	190	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	1A0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	1B0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	1C0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	1D0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	1E0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	1F0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+Description			PCI to PCI Bridge
+Location			bus 0 (0x00), device 28 (0x1C), function 2 (0x02)
+Common header
+	Vendor ID		0x8086 (Intel)
+	Model ID		0x22CC
+	Revision ID		0x35
+	PI			0x00
+	SubClass		0x04
+	BaseClass		0x06
+	Cache Line		0x10
+	Latency			0x00
+	Header			0x81
+PCI header
+	Primary bus		0x00
+	Secondary bus		0x02
+	Int. Line		0x00
+	Int. Pin		0x03
+PCI capability
+	Caps class		PCI Express
+	Caps offset		0x40
+	Device type		Root Port of PCI-E Root Complex
+	Port			3
+	Caps version		2.0
+	Physical slot		#0
+	Presence detect		yes
+	Link width		1x (max 1x)
+	Link speed		2.5 GT/s (max 2.5 GT/s)
+PCI capability
+	Caps class		Message Signalled Interrupts
+	Caps offset		0x80
+PCI capability
+	Caps class		Subsystem Vendor
+	Caps offset		0x90
+	SubVendor ID		0x1043 (ASUSTeK)
+	SubSystem ID		0x12E0
+PCI capability
+	Caps class		Power Management
+	Caps offset		0xA0
+	Caps version		1.2
+PCI registers	
+		00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F 
+	00	86 80 CC 22 07 04 10 00 35 00 04 06 10 00 81 00 
+	10	00 00 00 00 00 00 00 00 00 02 02 00 D0 D0 00 20 
+	20	40 82 40 82 11 B2 11 B2 00 00 00 00 00 00 00 00 
+	30	00 00 00 00 40 00 00 00 00 00 00 00 00 03 00 00 
+	40	10 80 42 01 00 80 00 00 00 00 10 00 11 3C 32 03 
+	50	40 00 11 70 00 B2 14 00 00 00 40 01 08 00 00 00 
+	60	00 00 00 00 17 08 00 00 00 04 00 00 00 00 00 00 
+	70	01 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	80	05 90 01 00 0C F0 E0 FE 61 49 00 00 00 00 00 00 
+	90	0D A0 00 00 43 10 E0 12 00 00 00 00 00 00 00 00 
+	A0	01 00 03 C8 08 00 00 00 00 00 00 00 00 00 00 00 
+	B0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	C0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	D0	00 00 00 01 42 08 00 00 00 C0 11 09 00 00 00 00 
+	E0	00 43 30 00 00 00 00 00 0B 00 00 00 00 00 00 00 
+	F0	50 00 00 00 40 00 00 0C 1C 0F 35 04 04 00 00 03 
+	100	00 00 00 20 00 00 00 00 00 00 00 00 11 00 06 00 
+	110	00 00 00 00 00 20 00 00 00 00 00 00 00 00 00 00 
+	120	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	130	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	140	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	150	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	160	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	170	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	180	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	190	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	1A0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	1B0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	1C0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	1D0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	1E0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	1F0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+Description			PCI to PCI Bridge
+Location			bus 0 (0x00), device 28 (0x1C), function 3 (0x03)
+Common header
+	Vendor ID		0x8086 (Intel)
+	Model ID		0x22CE
+	Revision ID		0x35
+	PI			0x00
+	SubClass		0x04
+	BaseClass		0x06
+	Cache Line		0x10
+	Latency			0x00
+	Header			0x81
+PCI header
+	Primary bus		0x00
+	Secondary bus		0x03
+	Int. Line		0x00
+	Int. Pin		0x04
+PCI capability
+	Caps class		PCI Express
+	Caps offset		0x40
+	Device type		Root Port of PCI-E Root Complex
+	Port			4
+	Caps version		2.0
+	Physical slot		#0
+	Presence detect		yes
+	Link width		1x (max 1x)
+	Link speed		2.5 GT/s (max 2.5 GT/s)
+PCI capability
+	Caps class		Message Signalled Interrupts
+	Caps offset		0x80
+PCI capability
+	Caps class		Subsystem Vendor
+	Caps offset		0x90
+	SubVendor ID		0x1043 (ASUSTeK)
+	SubSystem ID		0x12E0
+PCI capability
+	Caps class		Power Management
+	Caps offset		0xA0
+	Caps version		1.2
+PCI registers	
+		00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F 
+	00	86 80 CE 22 07 04 10 00 35 00 04 06 10 00 81 00 
+	10	00 00 00 00 00 00 00 00 00 03 03 00 C0 C0 00 20 
+	20	30 82 30 82 F1 FF 01 00 00 00 00 00 00 00 00 00 
+	30	00 00 00 00 40 00 00 00 00 00 00 00 00 04 00 00 
+	40	10 80 42 01 00 80 00 00 00 00 11 00 11 3C 32 04 
+	50	40 00 11 70 00 B2 1C 00 00 00 40 01 08 00 00 00 
+	60	00 00 00 00 17 08 00 00 00 04 00 00 00 00 00 00 
+	70	01 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	80	05 90 01 00 0C F0 E0 FE 51 49 00 00 00 00 00 00 
+	90	0D A0 00 00 43 10 E0 12 00 00 00 00 00 00 00 00 
+	A0	01 00 03 C8 08 00 00 00 00 00 00 00 00 00 00 00 
+	B0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	C0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	D0	00 00 00 01 42 08 00 00 00 C0 11 09 00 00 00 00 
+	E0	00 43 30 00 00 00 00 00 1B 00 00 00 00 00 00 00 
+	F0	50 00 00 00 40 00 00 0C 1C 0F 35 04 04 00 00 04 
+	100	00 00 00 20 00 00 00 00 00 00 00 00 11 00 06 00 
+	110	01 11 00 00 00 20 00 00 00 00 00 00 00 00 00 00 
+	120	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	130	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	140	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	150	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	160	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	170	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	180	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	190	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	1A0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	1B0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	1C0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	1D0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	1E0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	1F0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+Description			PCI to ISA Bridge
+Location			bus 0 (0x00), device 31 (0x1F), function 0 (0x00)
+Common header
+	Vendor ID		0x8086 (Intel)
+	Model ID		0x229C
+	Revision ID		0x35
+	PI			0x00
+	SubClass		0x01
+	BaseClass		0x06
+	Cache Line		0x00
+	Latency			0x00
+	Header			0x80
+PCI header
+	Subvendor ID		0x1043 (ASUSTeK)
+	Subsystem ID		0x12E0
+	Int. Line		0x00
+	Int. Pin		0x00
+PCI capability
+	Caps class		Vendor Dependant
+	Caps offset		0xE0
+PCI registers	
+		00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F 
+	00	86 80 9C 22 07 01 10 02 35 00 01 06 00 00 80 00 
+	10	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	20	00 00 00 00 00 00 00 00 00 00 00 00 43 10 E0 12 
+	30	00 00 00 00 E0 00 00 00 00 00 00 00 00 00 00 00 
+	40	03 04 00 00 02 30 D0 FE 01 00 00 00 02 00 D8 FE 
+	50	02 80 D0 FE 02 10 D0 FE 02 00 A0 FE 02 60 D0 FE 
+	60	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	70	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	80	01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	90	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	A0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	B0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	C0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	D0	00 00 00 00 00 00 00 00 CF FF 00 00 00 00 00 00 
+	E0	09 00 0C 10 00 00 00 00 00 00 00 00 00 00 00 00 
+	F0	01 C0 D1 FE 00 00 00 00 1C 0F 35 04 03 03 00 00 
+
+Description			SMBus Controller
+Location			bus 0 (0x00), device 31 (0x1F), function 3 (0x03)
+Common header
+	Vendor ID		0x8086 (Intel)
+	Model ID		0x2292
+	Revision ID		0x35
+	PI			0x00
+	SubClass		0x05
+	BaseClass		0x0C
+	Cache Line		0x00
+	Latency			0x00
+	Header			0x00
+PCI header
+	Address 0 (memory)	0x82518000
+	Address 4 (port)	0x0000F040
+	Subvendor ID		0x1043 (ASUSTeK)
+	Subsystem ID		0x12E0
+	Int. Line		0x00
+	Int. Pin		0x02
+PCI capability
+	Caps class		Power Management
+	Caps offset		0x50
+	Caps version		1.2
+PCI registers	
+		00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F 
+	00	86 80 92 22 03 00 90 02 35 00 05 0C 00 00 00 00 
+	10	00 80 51 82 00 00 00 00 00 00 00 00 00 00 00 00 
+	20	41 F0 00 00 00 00 00 00 00 00 00 00 43 10 E0 12 
+	30	00 00 00 00 50 00 00 00 00 00 00 00 00 02 00 00 
+	40	01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	50	01 00 03 00 08 00 00 00 00 00 00 00 00 00 00 00 
+	60	03 04 04 00 00 00 08 08 00 00 00 00 00 00 00 00 
+	70	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	80	04 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	90	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	A0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	B0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	C0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	D0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	E0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	F0	00 00 00 00 00 00 00 00 1C 0F 35 04 00 00 00 00 
+
+Description			3D Controller
+Location			bus 1 (0x01), device 0 (0x00), function 0 (0x00)
+Common header
+	Vendor ID		0x10DE (NVIDIA)
+	Model ID		0x0FEE
+	Revision ID		0xA1
+	PI			0x00
+	SubClass		0x02
+	BaseClass		0x03
+	Cache Line		0x10
+	Latency			0x00
+	Header			0x00
+PCI header
+	Address 0 (memory)	0x81000000
+	Address 1 (memory)	0x00000000A0000000
+	Address 3 (memory)	0x00000000B0000000
+	Subvendor ID		0x1043 (ASUSTeK)
+	Subsystem ID		0x11DE
+	Int. Line		0x00
+	Int. Pin		0x01
+PCI capability
+	Caps class		Power Management
+	Caps offset		0x60
+	Caps version		1.2
+PCI capability
+	Caps class		Message Signalled Interrupts
+	Caps offset		0x68
+PCI capability
+	Caps class		PCI Express
+	Caps offset		0x78
+	Device type		PCI-E Endpoint Device
+	Port			0
+	Caps version		2.0
+	Link width		2x (max 16x)
+	Link speed		2.5 GT/s (max 5.0 GT/s)
+PCI capability
+	Caps class		Vendor Dependant
+	Caps offset		0xB4
+PCI extended capability
+	Caps class		Virtual Channel
+	Caps offset		0x100
+PCI extended capability
+	Caps class		Power Budgeting
+	Caps offset		0x128
+PCI extended capability
+	Caps class		Vendor Specific
+	Caps offset		0x600
+	Vendor			1
+	Size			36
+PCI registers	
+		00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F 
+	00	DE 10 EE 0F 06 00 10 00 A1 00 02 03 10 00 00 00 
+	10	00 00 00 81 0C 00 00 A0 00 00 00 00 0C 00 00 B0 
+	20	00 00 00 00 01 00 00 00 00 00 00 00 43 10 DE 11 
+	30	00 00 00 00 60 00 00 00 00 00 00 00 00 01 00 00 
+	40	43 10 DE 11 00 00 00 00 00 00 00 00 00 00 00 00 
+	50	01 00 00 00 01 00 00 00 CE D6 23 00 00 00 00 00 
+	60	01 68 03 00 08 00 00 00 05 78 81 00 0C F0 E0 FE 
+	70	00 00 00 00 52 49 00 00 10 B4 02 00 E1 8D 00 00 
+	80	10 29 00 00 02 3D 46 00 40 01 21 10 00 00 00 00 
+	90	00 00 00 00 00 00 00 00 00 00 00 00 13 00 00 00 
+	A0	00 00 00 00 00 00 00 00 02 00 00 00 00 00 00 00 
+	B0	00 00 00 00 09 00 14 01 00 00 00 00 00 00 00 00 
+	C0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	D0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	E0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	F0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	100	02 00 81 12 00 00 00 00 00 00 00 00 00 00 00 00 
+	110	00 00 00 00 FF 00 00 80 00 00 00 00 00 00 00 00 
+	120	00 00 00 00 00 00 00 00 04 00 01 60 00 00 00 00 
+	130	21 81 07 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	140	00 00 00 00 30 00 00 01 00 00 00 00 1B 00 00 8B 
+	150	15 01 00 E0 40 71 50 06 00 00 00 00 21 81 07 00 
+	160	21 81 05 00 02 80 03 00 02 80 01 00 06 80 1F 00 
+	170	06 80 1D 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	180	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	190	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	1A0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	1B0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	1C0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	1D0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	1E0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	1F0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+Description			Ethernet Controller
+Location			bus 2 (0x02), device 0 (0x00), function 0 (0x00)
+Common header
+	Vendor ID		0x10EC (Realtek)
+	Model ID		0x8136
+	Revision ID		0x07
+	PI			0x00
+	SubClass		0x00
+	BaseClass		0x02
+	Cache Line		0x10
+	Latency			0x00
+	Header			0x00
+PCI header
+	Address 0 (port)	0x0000D000
+	Address 2 (memory)	0x0000000082400000
+	Address 4 (memory)	0x00000000B2100000
+	Subvendor ID		0x1043 (ASUSTeK)
+	Subsystem ID		0x205F
+	Int. Line		0x00
+	Int. Pin		0x01
+PCI capability
+	Caps class		Power Management
+	Caps offset		0x40
+	Caps version		1.2
+PCI capability
+	Caps class		Message Signalled Interrupts
+	Caps offset		0x50
+PCI capability
+	Caps class		PCI Express
+	Caps offset		0x70
+	Device type		PCI-E Endpoint Device
+	Port			0
+	Caps version		2.0
+	Link width		1x (max 1x)
+	Link speed		2.5 GT/s (max 2.5 GT/s)
+PCI capability
+	Caps class		MSI-X
+	Caps offset		0xB0
+PCI capability
+	Caps class		Virtual Product Data
+	Caps offset		0xD0
+PCI extended capability
+	Caps class		Advanced Error Reporting
+	Caps offset		0x100
+PCI extended capability
+	Caps class		Virtual Channel
+	Caps offset		0x140
+PCI extended capability
+	Caps class		Device Serial Number
+	Caps offset		0x160
+	Serial (EUI-64)		1000000-684CE000
+PCI extended capability
+	Caps class		0x18
+	Caps offset		0x170
+PCI registers	
+		00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F 
+	00	EC 10 36 81 07 04 10 00 07 00 00 02 10 00 00 00 
+	10	01 D0 00 00 00 00 00 00 04 00 40 82 00 00 00 00 
+	20	0C 00 10 B2 00 00 00 00 00 00 00 00 43 10 5F 20 
+	30	00 00 00 00 40 00 00 00 00 00 00 00 00 01 00 00 
+	40	01 50 C3 FF 08 00 00 00 00 00 00 00 00 00 00 00 
+	50	05 70 80 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	60	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	70	10 B0 02 02 C0 8D 90 05 17 20 10 00 11 7C 47 00 
+	80	40 01 11 10 00 00 00 00 00 00 00 00 00 00 00 00 
+	90	00 00 00 00 1F 08 0C 00 10 00 00 00 02 00 00 00 
+	A0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	B0	11 D0 03 80 04 00 00 00 04 08 00 00 00 00 00 00 
+	C0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	D0	03 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	E0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	F0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	100	01 00 01 14 00 00 00 00 00 00 10 00 30 20 06 00 
+	110	00 00 00 00 00 00 00 00 A0 00 00 00 00 00 00 00 
+	120	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	130	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	140	02 00 01 16 00 00 00 00 00 00 00 00 00 00 00 00 
+	150	00 00 00 00 FF 00 00 80 00 00 00 00 00 00 00 00 
+	160	03 00 01 17 00 E0 4C 68 00 00 00 01 00 00 00 00 
+	170	18 00 01 00 0F 08 0F 08 00 00 00 00 00 00 00 00 
+	180	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	190	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	1A0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	1B0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	1C0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	1D0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	1E0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	1F0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+Description			Network Controller
+Location			bus 3 (0x03), device 0 (0x00), function 0 (0x00)
+Common header
+	Vendor ID		0x10EC (Realtek)
+	Model ID		0xB723
+	Revision ID		0x00
+	PI			0x00
+	SubClass		0x80
+	BaseClass		0x02
+	Cache Line		0x10
+	Latency			0x00
+	Header			0x00
+PCI header
+	Address 0 (port)	0x0000C000
+	Address 2 (memory)	0x0000000082300000
+	Subvendor ID		0x11AD
+	Subsystem ID		0x1723
+	Int. Line		0x00
+	Int. Pin		0x01
+PCI capability
+	Caps class		Power Management
+	Caps offset		0x40
+	Caps version		1.2
+PCI capability
+	Caps class		Message Signalled Interrupts
+	Caps offset		0x50
+PCI capability
+	Caps class		PCI Express
+	Caps offset		0x70
+	Device type		PCI-E Endpoint Device
+	Port			0
+	Caps version		2.0
+	Link width		1x (max 1x)
+	Link speed		2.5 GT/s (max 2.5 GT/s)
+PCI extended capability
+	Caps class		Advanced Error Reporting
+	Caps offset		0x100
+PCI extended capability
+	Caps class		Device Serial Number
+	Caps offset		0x140
+	Serial (EUI-64)		23B7FE-FF4CE000
+PCI extended capability
+	Caps class		0x18
+	Caps offset		0x150
+PCI extended capability
+	Caps class		0x1E
+	Caps offset		0x158
+PCI registers	
+		00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F 
+	00	EC 10 23 B7 07 04 10 00 00 00 80 02 10 00 00 00 
+	10	01 C0 00 00 00 00 00 00 04 00 30 82 00 00 00 00 
+	20	00 00 00 00 00 00 00 00 00 00 00 00 AD 11 23 17 
+	30	00 00 00 00 40 00 00 00 00 00 00 00 00 01 00 00 
+	40	01 50 C3 FF 08 00 00 00 00 00 00 00 00 00 00 00 
+	50	05 70 81 00 0C F0 E0 FE 00 00 00 00 A3 49 00 00 
+	60	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	70	10 00 02 00 80 8D 90 05 17 50 11 00 11 3C 07 00 
+	80	40 01 11 10 00 00 00 00 00 00 00 00 00 00 00 00 
+	90	00 00 00 00 10 08 0C 00 10 04 00 00 02 00 00 00 
+	A0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	B0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	C0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	D0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	E0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	F0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	100	01 00 02 14 00 00 00 00 00 00 40 00 30 20 46 00 
+	110	00 10 00 00 00 60 00 00 A0 00 00 00 00 00 00 00 
+	120	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	130	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	140	03 00 01 15 00 E0 4C FF FE B7 23 00 00 00 00 00 
+	150	18 00 81 15 0F 08 0F 08 1E 00 01 00 1F 96 79 00 
+	160	1F 00 A0 40 79 00 00 00 00 00 00 00 00 00 00 00 
+	170	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	180	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	190	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	1A0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	1B0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	1C0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	1D0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	1E0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	1F0	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+
+DMI
+-------------------------------------------------------------------------
+
+SMBIOS Version			3.0
+
+DMI BIOS		
+	vendor			American Megatrends Inc.
+	version			X541SC.303
+	date			04/19/2019
+	ROM size		6144 KB
+
+DMI System Information		
+	manufacturer		ASUSTeK COMPUTER INC.
+	product			X541SC
+	version			1.0
+	serial			GCN0CV033790493
+	UUID			{7114926C-E9D9-F545-97FA-814C80624160}
+	SKU			ASUS-NotebookSKU
+	family			unknown
+
+DMI Baseboard		
+	vendor			ASUSTeK COMPUTER INC.
+	model			X541SC
+	revision		1.0
+	serial			BSN12345678901234567
+
+DMI System Enclosure		
+	manufacturer		ASUSTeK COMPUTER INC.
+	chassis type		Notebook
+	chassis serial		GCN0CV033790493
+
+DMI OEM Strings		
+	string[0]		             
+	string[1]		             
+	string[2]		             
+	string[3]		90NB0CI1-M00110
+	string[4]		 
+	string[5]		 
+	string[6]		 
+	string[7]		 
+	string[8]		 
+	string[9]		 
+
+DMI Physical Memory Array		
+	location		Motherboard
+	usage			System Memory
+	correction		None
+	max capacity		8 GB
+	max# of devices		2
+
+DMI Memory Device		
+	designation		A1_DIMM0
+	format			DIMM
+	type			DDR3
+	total width		64 bits
+	data width		64 bits
+	size			4 GB
+	speed			1066 MHz
+	manufacturer		SK Hynix
+	part number		HMT451S6CFR6A-PB  
+	serial number		00000000  
+	voltage			1.350000
+	manufacturer id		0x4D49
+	product id		0x304D
+DMI data	
+	000	0x11 0x28 0x0C 0x00 0x0A 0x00 0xFE 0xFF 0x40 0x00 
+	010	0x40 0x00 0x00 0x10 0x09 0x00 0x01 0x02 0x18 0x80 
+	020	0x00 0x40 0x06 0x03 0x04 0x05 0x06 0x02 0x00 0x00 
+	030	0x00 0x00 0x2A 0x04 0x46 0x05 0xDC 0x05 0x46 0x05 
+	040	0x41 0x31 0x5F 0x44 0x49 0x4D 0x4D 0x30 0x00 0x41 
+	050	0x31 0x5F 0x42 0x41 0x4E 0x4B 0x30 0x00 0x53 0x4B 
+	060	0x20 0x48 0x79 0x6E 
+
+DMI Memory Device		
+	designation		A1_DIMM1
+	format			DIMM
+	type			DDR2
+	data width		64 bits
+	manufacturer		A1_Manufacturer1
+	part number		Array1_PartNumber1
+	serial number		A1_SerNum1
+	manufacturer id		0x4D49
+	product id		0x314D
+DMI data	
+	000	0x11 0x28 0x0E 0x00 0x0A 0x00 0xFE 0xFF 0xFF 0xFF 
+	010	0x40 0x00 0x00 0x00 0x09 0x00 0x01 0x02 0x13 0x80 
+	020	0x00 0x00 0x00 0x03 0x04 0x05 0x06 0x00 0x00 0x00 
+	030	0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 
+	040	0x41 0x31 0x5F 0x44 0x49 0x4D 0x4D 0x31 0x00 0x41 
+	050	0x31 0x5F 0x42 0x41 0x4E 0x4B 0x31 0x00 0x41 0x31 
+	060	0x5F 0x4D 0x61 0x6E 
+
+DMI Processor		
+	manufacturer		Intel
+	model			Intel(R) Celeron(R) CPU N3160 @ 1.60GHz
+	clock speed		1600.0 MHz
+	FSB speed		80.0 MHz
+	multiplier		20.0x
+	max clock speed		2400.0 MHz
+DMI data	
+	000	0x04 0x30 0x13 0x00 0x01 0x03 0x0F 0x02 0xC4 0x06 
+	010	0x04 0x00 0xFF 0xFB 0xEB 0xBF 0x03 0x8C 0x50 0x00 
+	020	0x60 0x09 0x40 0x06 0x41 0x24 0x11 0x00 0x12 0x00 
+	030	0xFF 0xFF 0x00 0x04 0x05 0x04 
+
+
+Storage
+-------------------------------------------------------------------------
+
+Drive	0/0/-1/-1
+	Device Path		\\?\scsi#disk&ven_toshiba&prod_mq01abf050#4&28079823&0&000000#{53f56307-b6bf-11d0-94f2-00a0c91efb8b}
+	Name			TOSHIBA MQ01ABF050
+	Revision		AM0B3J  
+	Serial			           Y612S3PQS
+	Capacity		465.8 GB
+	Type			Fixed
+	Bus Type		SATA (11)
+	Rotation speed		5400 RPM
+	Features		SMART
+	Controller		Serial ATA Controller - AHCI at bus 0, device 19, function 0
+	Volume			c:\, 81.0 GBytes (59.0 percent available)
+	Volume			d:\, 128.0 GBytes (86.5 percent available)
+	Volume			e:\, 128.0 GBytes (82.2 percent available)
+	Volume			f:\, 128.5 GBytes (37.5 percent available)
+
+
+USB Devices
+-------------------------------------------------------------------------
+
+USB Device			USB Composite Device, class=0x00, subclass=0x00, vendor=0x18F8, product=0x1286
+USB Device			Generic Bluetooth Adapter, class=0xE0, subclass=0x01, vendor=0x0BDA, product=0xB721
+USB Device			USB Composite Device, class=0xEF, subclass=0x02, vendor=0x0BDA, product=0x57DE
+
+Graphics
+-------------------------------------------------------------------------
+
+Number of adapters		2
+
+Graphic APIs
+-------------------------------------------------------------------------
+
+API				D3D
+API				NVIDIA I/O
+API				NVIDIA NVAPI
+API				Intel I/O
+
+Display Adapters
+-------------------------------------------------------------------------
+
+Display adapter 0	
+	ID			0x1070107
+	Name			NVIDIA GeForce 810M
+	Board Manufacturer	ASUSTeK Computer Inc.
+	Revision		A2
+	Codename		GK107
+	Core family		0xE7 (GK107)
+	Cores			192
+	ROP Units		8
+	Technology		28 nm
+	Memory type		DDR3 (Hynix)
+	Memory size		2 GB
+	Memory bus width	64 bits
+	PCI device		bus 1 (0x1), device 0 (0x0), function 0 (0x0)
+		Vendor ID	0x10DE (0x1043)
+		Model ID	0x0FEE (0x11DE)
+		Revision ID	0xA1
+	Root device		bus 0 (0x0), device 28 (0x1C), function 0 (0x0)
+	Performance Level	Base
+		Core clock	835.0 MHz
+		Memory clock	900.0 MHz
+	Performance Level	Boost
+		Core clock	950.0 MHz
+		Memory clock	900.0 MHz
+	Performance Level	Current
+		Core clock	405.0 MHz
+		Memory clock	405.0 MHz
+	Driver version		25.21.14.2531
+	WDDM Model		2.5
+
+Display adapter 1	
+	ID			0x4000000
+	Name			Intel(R) HD Graphics
+	Board Manufacturer	ASUSTeK Computer Inc.
+	PCI device		bus 0 (0x0), device 2 (0x2), function 0 (0x0)
+		Vendor ID	0x8086 (0x1043)
+		Model ID	0x22B1 (0x12E0)
+		Revision ID	0x35
+	Driver version		20.19.15.5107
+	WDDM Model		2.0
+
+Win32_VideoController		AdapterRAM = 0x40000000 (1073741824)
+Win32_VideoController		AdapterRAM = 0x80000000 (2147483648)
+Win32_VideoController		DriverVersion = 20.19.15.5107
+Win32_VideoController		DriverVersion = 25.21.14.2531
+Win32_VideoController		DriverDate = 11/15/2019
+Win32_VideoController		DriverDate = 04/09/2019
+
+Monitor 0	
+	Model			 ()
+	ID			LGD04E1
+	Serial			
+	Manufacturing Date	Week 0, Year 2015
+	Size			15.3 inches
+	Max Resolution		1366 x 768 @ 60 Hz
+	Horizontal Freq. Range	0-0 kHz
+	Vertical Freq. Range	0-0 Hz
+	Max Pixel Clock		0 MHz
+	Gamma Factor		2.2
+
+Monitor 1	
+	Model			VE228 ()
+	ID			ACI22FA
+	Serial			D2LMQS040554
+	Manufacturing Date	Week 8, Year 2013
+	Size			21.7 inches
+	Max Resolution		1920 x 1080 @ 60 Hz
+	Horizontal Freq. Range	30-83 kHz
+	Vertical Freq. Range	50-76 Hz
+	Max Pixel Clock		170 MHz
+	Gamma Factor		2.2
+
+
+Software
+-------------------------------------------------------------------------
+
+Windows Version			Microsoft Windows 10 (10.0) Professional 64-bit   (Build 19042) 
+DirectX Version			12.0
+
+
+Register Spaces
+-------------------------------------------------------------------------
+
+Register space			PCI
+Register space			PCI #2
+Register space			PCI Express, base address = 0x0E0000000
+Register space			Sideband
+Register space			SMBus, base address = 0x0F040
