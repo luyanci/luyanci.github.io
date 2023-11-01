@@ -1,6 +1,7 @@
 ---
 title: 【黑历史】废稿
 date: 2022-10-29 16:27:00
+tags: 其他
 cover: /image/trash/top.jpg
 ---
 # 电竞系列日常文
